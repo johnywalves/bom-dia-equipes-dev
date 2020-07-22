@@ -1,20 +1,39 @@
+import { useState, useEffect } from 'react'
 import * as S from './styles'
 
-const Main = () => (
-  <S.Wrapper>
-    <S.Logo
-      src="/img/logo.svg"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
-    />
-    <S.Title>React Avançado</S.Title>
-    <S.Description>
-      TYpeScript, ReactJS, NextJS e Styled Components
-    </S.Description>
-    <S.Illustration
-      src="/img/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para uma tela com código"
-    />
-  </S.Wrapper>
-)
+type MainProps = {
+  message: string
+}
+
+//var(--textNormal/
+
+const Main = ({ message }: MainProps) => {
+  const [styleGoodMorning, setStyleGoodMorning] = useState({})
+
+  useEffect(() => {
+    setStyleGoodMorning({ opacity: '1' })
+  }, [setStyleGoodMorning])
+
+  return (
+    <S.Wrapper>
+      <S.GoodMorning
+        dangerouslySetInnerHTML={{ __html: message }}
+        style={styleGoodMorning}
+      />
+      <S.Footer style={styleGoodMorning}>
+        <p>
+          ©<span id="currentYear"></span> made with ♥ by{' '}
+          <a
+            href="https://www.johnywalves.com.br"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Johny W. Alves
+          </a>
+        </p>
+      </S.Footer>
+    </S.Wrapper>
+  )
+}
 
 export default Main

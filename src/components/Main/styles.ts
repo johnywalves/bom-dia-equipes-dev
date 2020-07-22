@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+  background-color: var(--bg);
+  color: var(--textNormal);
   width: 100%;
   height: 100%;
   padding: '3rem';
@@ -11,23 +11,26 @@ export const Wrapper = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  a {
+    color: var(--textLink);
+    text-decoration: none;
+  }
 `
 
-export const Logo = styled.img`
-  width: 25rem;
-  margin-bottom: 2rem;
+export const GoodMorning = styled.h1`
+  opacity: 0;
+  font-size: 3rem;
+  width: min(40rem, 100%);
+  transition: opacity 2s;
+  transition-delay: 0.5s;
 `
 
-export const Title = styled.h1`
-  font-size: 2.5rem;
-`
-
-export const Description = styled.h2`
-  font-size: 2rem;
-  font-weight: 400;
-`
-
-export const Illustration = styled.img`
-  margin-top: 3rem;
-  width: min(30rem, 100%);
+export const Footer = styled.footer`
+  opacity: 0;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 2rem;
+  transition: opacity 2.5s;
+  transition-delay: 1.5s;
 `

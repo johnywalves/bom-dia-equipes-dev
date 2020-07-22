@@ -2,27 +2,33 @@
 
 exports[`<Main /> should render the heading 1`] = `
 <main
-  class="styles__Wrapper-sc-1cs6c8-0 cFqvDY"
+  class="styles__Wrapper-sc-1cs6c8-0 gLRoaV"
 >
-  <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
-    class="styles__Logo-sc-1cs6c8-1 kjzhTH"
-    src="/img/logo.svg"
-  />
   <h1
-    class="styles__Title-sc-1cs6c8-2 gcXVYJ"
+    class="styles__GoodMorning-sc-1cs6c8-1 jyrQfH"
+    style="opacity: 1;"
   >
-    React Avançado
+    Testing message
   </h1>
-  <h2
-    class="styles__Description-sc-1cs6c8-3 epwofi"
+  <footer
+    class="styles__Footer-sc-1cs6c8-2 kyigzk"
+    style="opacity: 1;"
   >
-    TYpeScript, ReactJS, NextJS e Styled Components
-  </h2>
-  <img
-    alt="Um desenvolvedor de frente para uma tela com código"
-    class="styles__Illustration-sc-1cs6c8-4 kYgUhr"
-    src="/img/hero-illustration.svg"
-  />
+    <p>
+      ©
+      <span
+        id="currentYear"
+      />
+       made with ♥ by
+       
+      <a
+        href="https://www.johnywalves.com.br"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        Johny W. Alves
+      </a>
+    </p>
+  </footer>
 </main>
-`
+`;

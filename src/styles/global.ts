@@ -12,11 +12,17 @@ const GlobalStyles = createGlobalStyle`
     }
 
     html, body, #__next {
-        height: 100%;
+        height: 100vh;
     }
 
     body {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    body {
+        --bg: #282c35;
+        --textNormal: #ffffff88;
+        --textLink: #ffa7c4;
     }
 `
 
