@@ -5,24 +5,21 @@ type MainProps = {
   message: string
 }
 
-//var(--textNormal/
-
 const Main = ({ message }: MainProps) => {
   const [styleGoodMorning, setStyleGoodMorning] = useState({})
+  const [year, setYear] = useState('')
 
   useEffect(() => {
     setStyleGoodMorning({ opacity: '1' })
-  }, [setStyleGoodMorning])
+    setYear(new Date().getFullYear().toString())
+  }, [])
 
   return (
     <S.Wrapper>
-      <S.GoodMorning
-        dangerouslySetInnerHTML={{ __html: message }}
-        style={styleGoodMorning}
-      />
+      <S.GoodMorning style={styleGoodMorning}>{message}</S.GoodMorning>
       <S.Footer style={styleGoodMorning}>
         <p>
-          ©<span id="currentYear"></span> made with ♥ by{' '}
+          ©{year} made with ♥ by{' '}
           <a
             href="https://www.johnywalves.com.br"
             rel="noopener noreferrer"
