@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useCallback, useState, useEffect } from 'react'
 import * as S from './styles'
 
 type MainProps = {
@@ -7,16 +7,57 @@ type MainProps = {
 
 const Main = ({ message }: MainProps) => {
   const [styleGoodMorning, setStyleGoodMorning] = useState({})
+  const [copied, setCopied] = useState(false)
+  const [theme, setTheme] = useState('')
   const [year, setYear] = useState('')
 
+  const isDarkMode = theme === 'dark'
+
   useEffect(() => {
-    setStyleGoodMorning({ opacity: '1' })
+    setTheme(window.__theme)
+
+    window.__onThemeChange = () => setTheme(window.__theme)
+  }, [])
+
+  useEffect(() => {
     setYear(new Date().getFullYear().toString())
+  }, [])
+
+  useEffect(() => {
+    setStyleGoodMorning({ opacity: 1 })
+  }, [])
+
+  useEffect(() => {
+    const timer = setTimeout(() => setCopied(false), 2000)
+    return () => clearTimeout(timer)
+  }, [copied])
+
+  const copy = useCallback(() => {
+    const el = document.createElement('input')
+    document.body.appendChild(el)
+    el.setAttribute('type', 'text')
+    el.setAttribute('value', message)
+    el.select()
+    el.setSelectionRange(0, 99999)
+    if (document.execCommand('copy')) {
+      setCopied(true)
+      el.remove()
+    }
+  }, [setCopied, message])
+
+  const backCopy = useCallback(() => {
+    setCopied(false)
   }, [])
 
   return (
     <S.Wrapper>
-      <S.GoodMorning style={styleGoodMorning}>{message}</S.GoodMorning>
+      {copied ? (
+        <S.Copied onClick={backCopy}>Copiado!</S.Copied>
+      ) : (
+        <S.GoodMorning style={styleGoodMorning} onClick={copy}>
+          {message}
+        </S.GoodMorning>
+      )}
       <S.Footer style={styleGoodMorning}>
         <p>
           ©{year} made with ♥ by{' '}
@@ -29,6 +70,11 @@ const Main = ({ message }: MainProps) => {
           </a>
         </p>
       </S.Footer>
+      <S.Astro
+        onClick={() => {
+          window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
+        }}
+      />
     </S.Wrapper>
   )
 }

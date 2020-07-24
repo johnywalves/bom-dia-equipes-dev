@@ -23,6 +23,13 @@ const GlobalStyles = createGlobalStyle`
         --bg: #282c35;
         --textNormal: #ffffff88;
         --textLink: #ffa7c4;
+        --textConfirmed: #8FBC8F;
+    }
+
+    body.light {
+        --textNormal: #222222;
+        --textLink: #d23669;
+        --textConfirmed: #008000;
     }
 `
 

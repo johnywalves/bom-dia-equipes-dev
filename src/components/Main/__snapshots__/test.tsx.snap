@@ -5,20 +5,18 @@ exports[`<Main /> should render the heading 1`] = `
   class="styles__Wrapper-sc-1cs6c8-0 gLRoaV"
 >
   <h1
-    class="styles__GoodMorning-sc-1cs6c8-1 jyrQfH"
+    class="styles__GoodMorning-sc-1cs6c8-1 kyodOg"
     style="opacity: 1;"
   >
     Testing message
   </h1>
   <footer
-    class="styles__Footer-sc-1cs6c8-2 kyigzk"
+    class="styles__Footer-sc-1cs6c8-4 cKltbE"
     style="opacity: 1;"
   >
     <p>
       ©
-      <span
-        id="currentYear"
-      />
+      2020
        made with ♥ by
        
       <a
@@ -30,5 +28,8 @@ exports[`<Main /> should render the heading 1`] = `
       </a>
     </p>
   </footer>
+  <footer
+    class="styles__Astro-sc-1cs6c8-3 kOyasR"
+  />
 </main>
-`;
+`
