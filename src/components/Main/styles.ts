@@ -44,7 +44,7 @@ export const Copied = styled.h1`
   z-index: 2;
 `
 
-export const Astro = styled.footer`
+export const Astro = styled.div`
   margin: 0;
   width: 30px;
   height: 30px;
@@ -54,26 +54,11 @@ export const Astro = styled.footer`
   right: 1.75rem;
   top: 1.75rem;
   z-index: 1;
-  border: solid 1px;
-  transition: all 0.5s ease-in;
+  border: solid 1px var(--bg);
+  transition: all 0.5s cubic-bezier(0, 0.92, 0.27, 0.82);
   cursor: pointer;
-  background-color: #ebf3fe;
-  box-shadow: inset -4px 0px 0px #d8e8f7, inset 2px 0px 0px #ffffff,
-    inset -5px 0px 0px 20px #e2eefa, 0px 0px 0px 8px #ffffff0c,
-    0px 0px 0px 16px #ffffff08, 0px 0px 0px 24px #ffffff05;
-
-  &:after {
-    content: '';
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: #d8e8f7;
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    transition: all 0.5s ease-in;
-    box-shadow: 4px -2px 0px -1px #d8e8f7, 4px 1px 0px -2px #d8e8f7;
-  }
+  background-color: var(--bg);
+  box-shadow: inset 2px -2px 0px 0px #ffffff, inset 8px -8px 0px 0px #d8e8f7;
 
   .light & {
     background-color: #ffdb01 !important;
@@ -82,11 +67,6 @@ export const Astro = styled.footer`
       0px 0px 0px 16px #ffd20133, 0px 0px 0px 24px #ffd20111,
       0px 0px 0px 130vh #fff, 0px 0px 0px 130vw #fff,
       0px 0px 0px 200vh #ffffff55, 0px 0px 0px 200vw #ffffff55;
-  }
-
-  .light &:after {
-    background-color: #ffd201;
-    box-shadow: 4px -2px 0px -1px #ffd201, 4px 1px 0px -2px #ffd201;
   }
 `
 

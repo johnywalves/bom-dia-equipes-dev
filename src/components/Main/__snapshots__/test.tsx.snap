@@ -28,8 +28,8 @@ exports[`<Main /> should render the heading 1`] = `
       </a>
     </p>
   </footer>
-  <footer
-    class="styles__Astro-sc-1cs6c8-3 kOyasR"
+  <div
+    class="styles__Astro-sc-1cs6c8-3 fcJKwB"
   />
 </main>
 `
