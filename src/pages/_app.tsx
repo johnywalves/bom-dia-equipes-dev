@@ -10,6 +10,7 @@ function App({ Component, pageProps }: AppProps) {
         <title>Bom dia, equipe dev!</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
           content="Uma maneira criativa para saudar seus colegas devenvolvedores toda manhã"

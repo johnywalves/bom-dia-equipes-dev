@@ -48,12 +48,11 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="pt-BR">
-        <Head>
-          <body>
-            <Main />
-            <NextScript />
-          </body>
-        </Head>
+        <Head />
+        <body>
+          <Main />
+          <NextScript />
+        </body>
         <script
           dangerouslySetInnerHTML={{
             __html: `
