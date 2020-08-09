@@ -2,16 +2,16 @@
 
 exports[`<Main /> should render the heading 1`] = `
 <main
-  class="styles__Wrapper-sc-1cs6c8-0 gLRoaV"
+  class="styles__Wrapper-sc-1k8d0zu-0 ljLCFU"
 >
   <h1
-    class="styles__GoodMorning-sc-1cs6c8-1 kyodOg"
+    class="styles__GoodMorning-sc-1k8d0zu-1 iquAGJ"
     style="opacity: 1;"
   >
     Testing message
   </h1>
   <footer
-    class="styles__Footer-sc-1cs6c8-4 cKltbE"
+    class="styles__Footer-sc-1k8d0zu-4 kpbosV"
     style="opacity: 1;"
   >
     <p>
@@ -29,7 +29,7 @@ exports[`<Main /> should render the heading 1`] = `
     </p>
   </footer>
   <div
-    class="styles__Astro-sc-1cs6c8-3 fcJKwB"
+    class="styles__Astro-sc-1k8d0zu-3 jXOqzY"
   />
 </main>
 `
