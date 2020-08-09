@@ -15,7 +15,6 @@ const Main = ({ message }: MainProps) => {
 
   useEffect(() => {
     setTheme(window.__theme)
-
     window.__onThemeChange = () => setTheme(window.__theme)
   }, [])
 
