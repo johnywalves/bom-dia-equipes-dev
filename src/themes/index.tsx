@@ -17,7 +17,8 @@ export const themeFriday: FuncTheme = () => [
 
 export const themeHappy: FuncTheme = () => [
   'bom dia, engenheiras e engenheiros para construir pontes e plataformas para unir pessoas',
-  'Pessoas encantadoras, sabem que dia é hoje? Dia de ser engajado, produtivo e compartilhar experiências! Bom dia para pessoal'
+  'pessoas encantadoras, sabem que dia é hoje? Dia de ser engajado, produtivo e compartilhar experiências! Bom dia para pessoal',
+  'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros'
 ]
 
 export const themeFunny: FuncTheme = () => [
@@ -31,7 +32,7 @@ export const themeFunny: FuncTheme = () => [
 
 export const themeHoly: FuncTheme = () => [
   'irmãs e irmãos, já agradeceram por acordarem bem e saudáveis neste belo dia? Que ele veja cada vez mais iluminado',
-  'Sejam bem-vindos, pessoas de luz para mais um abençoado dia',
+  'sejam bem-vindos, pessoas de luz para mais um abençoado dia',
   'consagradas e consagrados, o deus que habita em mim cumprimenta o deus que habita em vocês para lhes desejarem boas energias e ótimos eventos vindoros'
 ]
 
