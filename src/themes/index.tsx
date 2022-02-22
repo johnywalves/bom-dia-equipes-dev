@@ -21,7 +21,8 @@ export const themeHappy: FuncTheme = () => [
   'bom dia, engenheiras e engenheiros para construir pontes e plataformas para unir pessoas',
   'pessoas encantadoras, sabem que dia é hoje? Dia de ser engajado, produtivo e compartilhar experiências! Bom dia para pessoal',
   'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
-  'sejam bem-vindos, pessoas de luz para mais um abençoado dia'
+  'sejam bem-vindos, pessoas de luz para mais um abençoado dia',
+  'conterrâneas e conterrâneos, habitantes de terras brazilis, construtores do país do futuro, resistentes e sonhadores, vamos juntos para mais um belo dia construir um lugar para nos orgulharmos e que nos permita acreditar que o melhor é possível'
 ]
 
 export const themeFunny: FuncTheme = () => [
@@ -31,7 +32,8 @@ export const themeFunny: FuncTheme = () => [
   'damas e cavalheiros, espero que a alvorada de um novo dia traga oportunidades para realizar seus sonhos e anseios',
   'ideias, design e muita teoria esses foram os ingredientes escolhidos para montar a equipe perfeita, mas o professor acidentalmente acrescentou o ingrediente extra na mistura o elemento Café, e assim nasceu o nesse time maravilhoso',
   'senhoras, senhores e o maravilhoso arco-íris entre esses dois, bom dia para mais um dia de foco, força e fé',
-  'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros'
+  'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
+  'magas e magos, vamos unir nossos feitiços para conjurar um dia belo e uma semana maravilhosa, cheia de magia e colorida com várias realizações e sucesso'
 ]
 
 export const themeHoly: FuncTheme = () => [
@@ -55,7 +57,8 @@ export const themeLabor: FuncTheme = () => [
   'naturalistas e naturalistos, vamos explorar o muindo para descobrir novas formas de entregar resultados e teorizar sobre a evolução de nosso produto, nessa bela quarta-feira',
   'advogadas e advogados, preparem seus argumentos, laudos e citações pois temos um cliente para defender contra as injustiças deste mundo, que tenhamos sucesso nesse belo e iluminado dia',
   'jogadoras e jogadores, vamos nos preparar para mais um partida que será fantástica desse time prepadado e dedicado',
-  'escultoras e escultores, bom dia e uma ótima semana, para criar obras maravilhosas para encantar o cliente e descobrir novas formas de tralhar a realidade do material bruto'
+  'escultoras e escultores, bom dia e uma ótima semana, para criar obras maravilhosas para encantar o cliente e descobrir novas formas de tralhar a realidade do material bruto',
+  'advogadas e advogados, preparem os processos e as papeladas vamos garantir um dia lindo e maravilhoso nem que judicialmente'
 ]
 
 export const themeDream: FuncTheme = () => [
