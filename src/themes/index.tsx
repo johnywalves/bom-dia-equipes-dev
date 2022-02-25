@@ -14,7 +14,8 @@ export const themeWednesday: FuncTheme = () => [
 
 export const themeFriday: FuncTheme = () => [
   'bom dia, festeiros para mais uma sexta-feira vamos aproveitar esse finalzinho de fim de semana',
-  'bom dia, sexteiras e sexteiros, para mais um dia produtivo, antes do final de semana'
+  'bom dia, sexteiras e sexteiros, para mais um dia produtivo, antes do final de semana',
+  'festeiras e festeiros, preparem as bebidas, mas espere as 18h para colocar a carne para assar, vamos juntos para mais um sexta-feira bela e produtiva'
 ]
 
 export const themeHappy: FuncTheme = () => [
@@ -58,7 +59,8 @@ export const themeLabor: FuncTheme = () => [
   'advogadas e advogados, preparem seus argumentos, laudos e citações pois temos um cliente para defender contra as injustiças deste mundo, que tenhamos sucesso nesse belo e iluminado dia',
   'jogadoras e jogadores, vamos nos preparar para mais um partida que será fantástica desse time prepadado e dedicado',
   'escultoras e escultores, bom dia e uma ótima semana, para criar obras maravilhosas para encantar o cliente e descobrir novas formas de tralhar a realidade do material bruto',
-  'advogadas e advogados, preparem os processos e as papeladas vamos garantir um dia lindo e maravilhoso nem que judicialmente'
+  'advogadas e advogados, preparem os processos e as papeladas vamos garantir um dia lindo e maravilhoso nem que judicialmente',
+  'cineatas e cineatos, preparem suas câmeras e microfones para registrar esse dia maravilhoso, vamos enquadrar em nossa visão e expressar com maestria a sétima arte para encantar corações e mentes'
 ]
 
 export const themeDream: FuncTheme = () => [
