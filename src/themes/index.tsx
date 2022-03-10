@@ -5,7 +5,8 @@ export const themeMonday: FuncTheme = () => [
   'bom dia, pessoas lindas para mais uma semana de sucesso e alegrias',
   'bom dia, amadas e amados, lindas e lindos para mais um bela e inspiradora semana',
   'boa semana e bom dia para os praticantes das artes tecnológicas, conjuradores de sistemas e encantadores de máquinas',
-  'bom dia e Boa semana, para os gigantes do meu coração vamos juntos nessa bela semana linda e produtiva'
+  'bom dia e boa semana, para os gigantes do meu coração vamos juntos nessa bela semana linda e produtiva',
+  'bom dia e boa semana, para esses gigantes do desenvolvimento nacional, realizadores de grandes feitos e sucessos consecutivos!'
 ]
 
 export const themeWednesday: FuncTheme = () => [
@@ -60,14 +61,21 @@ export const themeLabor: FuncTheme = () => [
   'jogadoras e jogadores, vamos nos preparar para mais um partida que será fantástica desse time prepadado e dedicado',
   'escultoras e escultores, bom dia e uma ótima semana, para criar obras maravilhosas para encantar o cliente e descobrir novas formas de tralhar a realidade do material bruto',
   'advogadas e advogados, preparem os processos e as papeladas vamos garantir um dia lindo e maravilhoso nem que judicialmente',
-  'cineatas e cineatos, preparem suas câmeras e microfones para registrar esse dia maravilhoso, vamos enquadrar em nossa visão e expressar com maestria a sétima arte para encantar corações e mentes'
+  'cineatas e cineatos, preparem suas câmeras e microfones para registrar esse dia maravilhoso, vamos enquadrar em nossa visão e expressar com maestria a sétima arte para encantar corações e mentes',
+  'cavalheiras e cavalheiros, apreciai a novo alvorada que anuncia a chegada de um esplêndido dia com nobres desafios e conquista fabulosas',
+  'metaleiras e metaleiros, vamos afinar as guitarras, alisar as peles da bateria e preparar a voz, para um show fantástico no dia de hoje, vamos fazer o deus no metal orgulhoso com nosso virtuosismo e excelência',
+  'abelhas e abelhos, acordai-vos para beijar as flores, coletar seu néctar e produzir o mais puro mel, em nossas casas perfeitamente hexagonais para guardar nossas conquistas'
 ]
 
 export const themeDream: FuncTheme = () => [
   'conterrâneas e conterrâneos, habitantes de terras brazilis, construtores do país do futuro, resistentes e sonhadores, vamos juntos para mais um belo dia construir um lugar para nos orgulharmos e que nos permita acreditar que o melhor é possível',
   'sonhadoras e sonhadores, acordai-vos para o novo dia vamos fazer ele belo e produtivo, para que nossas cabeças possam descansar e sempre aproveitar o novo dia para correr atrás de nossos sonhos',
-  'damas e cavalheiros, espero que a alvorada de um novo dia traga oportunidades para realizar seus sonhos e anseios'
+  'damas e cavalheiros, espero que a alvorada de um novo dia traga oportunidades para realizar seus sonhos e anseios',
+  'portadoras e portadores da chama, guias da humanidade e descobridores de caminhos, vamos desvelar as trevas da ignorância e abrir passagem para um novo dia compartilhando a chama do conhecimento a todas as pessoas'
 ]
+
+//bom dia para as mulheres do time, feliz dia das mulheres e parabéns pelas conquistas no dia a dia nessa sistema sistematicamente misogino e bom dia para os homens também
+//bom dia, amigas e amigos nessa sexta-feira de carnaval, vamos juntos finalizar mais um belo dia e uma encantada semana com dedicação e foco
 
 export const listThemeGenre = [
   themeHappy,
