@@ -25,7 +25,7 @@ export const GoodMorning = styled.h1`
   transform: translate(-50%, -50%);
   opacity: 0;
   font-size: 3rem;
-  width: min(40rem, 100%);
+  width: min(50rem, 100%);
   transition: opacity 2s;
   transition-delay: 0.5s;
   cursor: pointer;

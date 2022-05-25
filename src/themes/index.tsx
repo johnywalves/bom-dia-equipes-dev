@@ -16,7 +16,8 @@ export const themeWednesday: FuncTheme = () => [
 export const themeFriday: FuncTheme = () => [
   'bom dia, festeiros para mais uma sexta-feira vamos aproveitar esse finalzinho de fim de semana',
   'bom dia, sexteiras e sexteiros, para mais um dia produtivo, antes do final de semana',
-  'festeiras e festeiros, preparem as bebidas, mas espere as 18h para colocar a carne para assar, vamos juntos para mais um sexta-feira bela e produtiva'
+  'festeiras e festeiros, preparem as bebidas, mas espere as 18h para colocar a carne para assar, vamos juntos para mais um sexta-feira bela e produtiva',
+  'sexteiras e sexteiros, chegou mais um sexta-feira, vamos finalizar a semana com chave de ouro, um ótimo dia para todos que o dia seja alegre e produtivo'
 ]
 
 export const themeHappy: FuncTheme = () => [
@@ -35,7 +36,8 @@ export const themeFunny: FuncTheme = () => [
   'ideias, design e muita teoria esses foram os ingredientes escolhidos para montar a equipe perfeita, mas o professor acidentalmente acrescentou o ingrediente extra na mistura o elemento Café, e assim nasceu o nesse time maravilhoso',
   'senhoras, senhores e o maravilhoso arco-íris entre esses dois, bom dia para mais um dia de foco, força e fé',
   'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
-  'magas e magos, vamos unir nossos feitiços para conjurar um dia belo e uma semana maravilhosa, cheia de magia e colorida com várias realizações e sucesso'
+  'magas e magos, vamos unir nossos feitiços para conjurar um dia belo e uma semana maravilhosa, cheia de magia e colorida com várias realizações e sucesso',
+  'conterrâneas e conterrâneos, bem vindos para mais um dia para esse belo planeta que convencionamos chamar de Terra, para mais uma maravilhosa rotação no próprio eixo, chamamos dele uma aurora boa e produtiva'
 ]
 
 export const themeHoly: FuncTheme = () => [
@@ -74,8 +76,97 @@ export const themeDream: FuncTheme = () => [
   'portadoras e portadores da chama, guias da humanidade e descobridores de caminhos, vamos desvelar as trevas da ignorância e abrir passagem para um novo dia compartilhando a chama do conhecimento a todas as pessoas'
 ]
 
-//bom dia para as mulheres do time, feliz dia das mulheres e parabéns pelas conquistas no dia a dia nessa sistema sistematicamente misogino e bom dia para os homens também
-//bom dia, amigas e amigos nessa sexta-feira de carnaval, vamos juntos finalizar mais um belo dia e uma encantada semana com dedicação e foco
+type DayTheme = { day: number; month: number; text: string }
+
+export const getThemeDay = (today: Date): DayTheme | undefined => {
+  const list: Array<DayTheme> = [
+    {
+      day: 8,
+      month: 3,
+      text: 'bom dia para as mulheres do time, feliz dia das mulheres e parabéns pelas conquistas no dia a dia nessa sistema sistematicamente misogino e bom dia para os homens também'
+    },
+    {
+      day: 14,
+      month: 4,
+      text: 'Cafeicultoras e cafeicultores, preparem seus belos grãos para preparar essa bebida sagrada de cada dia, quente e forte para nos levantar dispostos a conquistar mais um dia e que sua energia nos siga no dia de hoje'
+    },
+    {
+      day: 19,
+      month: 4,
+      text: 'Índias e índio, guardiões dos segredos selvagens e das matas, domesticadores da mandioca, habitantes do coração do Brasil, vamos todos preparar nossos arcos para trazer pela caça para nosso dia'
+    },
+    {
+      day: 20,
+      month: 4,
+      text: 'Danceiras e danceiros, vamos pegar os sapatos plataformas, armar nossos cabelos com muito hair spray, preparar a bola espelhada para dançarmos juntos e impressionar todos com nossa performance'
+    },
+    {
+      day: 26,
+      month: 4,
+      text: 'Escultoras e escultores, bom dia e uma ótima semana, para criar obras maravilhosas para encantar o cliente e descobrir novas formas de tralhar a realidade do material bruto'
+    },
+    {
+      day: 2,
+      month: 5,
+      text: 'Trabalharas e trabalhadores, acorda-vos para mais um pelo de labuta e conquista, para mais oportunidades de mover o mundo para frente e levar o mundo para um futuro belo'
+    },
+    {
+      day: 4,
+      month: 5,
+      text: 'Sensitivas e sensitivos, deixe o fluxo da vida passar por vocês e guiar seu movimentos, que a força esteja com vocês nesse dia maravilhoso e possamos conquistar com perseverança e respeito'
+    },
+    {
+      day: 5,
+      month: 5,
+      text: 'Expedicionárias e expedicionários, vamos explorar a vastidão do desconhecido em busca de novas oportunidades e construir novos caminhos, juntos conquistar o nunca conquistado e descobrir o nunca antes revelado'
+    },
+    {
+      day: 9,
+      month: 5,
+      text: 'Viajantas e viajantes, peguem o passaporte, não esqueçam de colocar toalha na sua mala, vamos conhecer monumentos, histórias e pessoas, para acrescem no nosso repertório e assim agregar nas nossas entregas'
+    },
+    {
+      day: 12,
+      month: 5,
+      text: 'Enfermeiras e enfermeiros, lavem as mãos e se preparem para mais um belo dia de trabalho para garantir a saúde e estabilidade de nosso paciência que os ensinamentos de Florence Nightingale perdure e orientem nossas ações'
+    },
+    {
+      day: 17,
+      month: 5,
+      text: 'Senhoras, senhores e o maravilhoso arco-íris entre esses dois, bem-vindos para mais um belo e glorioso dia para fazer o mundo melhor a cada dia com igualdade e oportunidade para todos'
+    },
+    {
+      day: 18,
+      month: 5,
+      text: 'Museólogas e museólogos, guardiões do passado, construtores da memória coletiva e protetores dos tesouros da história coletiva, vamos juntos criar um futuro melhor, para nos orgulharmos e encher de esperança para tempos vindouros'
+    },
+    {
+      day: 19,
+      month: 5,
+      text: 'Médicas e médicos, vamos pegar o prontuário do nosso paciente e levar para ele saúde plena, trabalhar com dedicação e presteza para garantir o futuro maravilhoso para todos'
+    },
+    {
+      day: 20,
+      month: 5,
+      text: 'Abelhas e abelhos, vamos tomar o solzinho da manhã para aquecer e preparar para esse dia frio, colher o pólen das flores e produzir um gostoso e nutritivo mel'
+    },
+    {
+      day: 24,
+      month: 5,
+      text: 'Amantas e amantes do café, vamos juntos preparar um bela xícara para o dia de hoje com a ajuda da santa cafeína nos manter produtivos e atentos, um ótimo café para todos e um maravilhoso dia'
+    },
+    {
+      day: 25,
+      month: 5,
+      text: 'Mochileiras e mochileiros, preparem seus pertences e sua vontade de explorar o universo, vamos de carona em carona para onde nossos sonhos quiserem nos levar, andem sempre com atenção e não esqueçam suas toalhas'
+    }
+  ]
+
+  return list.find(
+    ({ day, month }) =>
+      day === today.getDate() && month === today.getMonth() + 1
+  )
+}
 
 export const listThemeGenre = [
   themeHappy,
@@ -108,7 +199,12 @@ const getMessage = () => {
   const today = new Date()
   let theme: FuncTheme
 
-  if (Math.random() * 3 === 1) {
+  const dayTheme: DayTheme | undefined = getThemeDay(today)
+  if (dayTheme && Math.round(Math.random() * 3) === 1) {
+    return dayTheme.text[0].toUpperCase() + dayTheme.text.slice(1)
+  }
+
+  if (Math.round(Math.random() * 3) === 1) {
     switch (today.getDay()) {
       case 1:
         theme = themeMonday
