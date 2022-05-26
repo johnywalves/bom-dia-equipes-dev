@@ -66,7 +66,8 @@ export const themeLabor: FuncTheme = () => [
   'cineatas e cineatos, preparem suas câmeras e microfones para registrar esse dia maravilhoso, vamos enquadrar em nossa visão e expressar com maestria a sétima arte para encantar corações e mentes',
   'cavalheiras e cavalheiros, apreciai a novo alvorada que anuncia a chegada de um esplêndido dia com nobres desafios e conquista fabulosas',
   'metaleiras e metaleiros, vamos afinar as guitarras, alisar as peles da bateria e preparar a voz, para um show fantástico no dia de hoje, vamos fazer o deus no metal orgulhoso com nosso virtuosismo e excelência',
-  'abelhas e abelhos, acordai-vos para beijar as flores, coletar seu néctar e produzir o mais puro mel, em nossas casas perfeitamente hexagonais para guardar nossas conquistas'
+  'abelhas e abelhos, acordai-vos para beijar as flores, coletar seu néctar e produzir o mais puro mel, em nossas casas perfeitamente hexagonais para guardar nossas conquistas',
+  'jornalistas e jornalistos, vamos para mais um dia de pauta e trabalho, revelando a verdade e trazendo para todos novas visões de mundo, juntos vamos fazer um trabalho com ética e responsabilidade, não esqueçam que sempre podemos ter uma nova machete.'
 ]
 
 export const themeDream: FuncTheme = () => [
@@ -200,11 +201,11 @@ const getMessage = () => {
   let theme: FuncTheme
 
   const dayTheme: DayTheme | undefined = getThemeDay(today)
-  if (dayTheme && Math.round(Math.random() * 3) === 1) {
+  if (dayTheme && Math.trunc(Math.random() * 3) === 1) {
     return dayTheme.text[0].toUpperCase() + dayTheme.text.slice(1)
   }
 
-  if (Math.round(Math.random() * 3) === 1) {
+  if (Math.trunc(Math.random() * 3) === 1) {
     switch (today.getDay()) {
       case 1:
         theme = themeMonday
