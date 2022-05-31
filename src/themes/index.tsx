@@ -166,6 +166,11 @@ export const getThemeDay = (today: Date): DayTheme | undefined => {
       day: 30,
       month: 5,
       text: 'decoradoras e decoradores, peguem seus cortinas, vasinhos de planta, quadros e almofadas vamos deixar nesse ambiente lindo e agradável, para inspirar e transpirar calma e organização, trazer a beleza do mundo para nosso e outros lares'
+    },
+    {
+      day: 31,
+      month: 5,
+      text: 'atenção senhoras e senhores passageiros, bem-vindos ao dia de hoje, para sua segurança estamos aqui para te auxiliar e desenvolver juntos, se precisar de alguma ajuda a um chat de distância pode encontrar um companheiro de trabalho, a previsão de chegada é de trabalho bem feito e sucesso para todos'
     }
   ]
 
