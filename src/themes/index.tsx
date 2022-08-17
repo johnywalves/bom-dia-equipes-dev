@@ -171,6 +171,16 @@ export const getThemeDay = (today: Date): DayTheme | undefined => {
       day: 31,
       month: 5,
       text: 'atenção senhoras e senhores passageiros, bem-vindos ao dia de hoje, para sua segurança estamos aqui para te auxiliar e desenvolver juntos, se precisar de alguma ajuda a um chat de distância pode encontrar um companheiro de trabalho, a previsão de chegada é de trabalho bem feito e sucesso para todos'
+    },
+    {
+      day: 21,
+      month: 7,
+      text: 'confeiteiras e confeiteiros, peguem seus picos, seus glacês, seus fues para fazermos um belo bolo hoje para alimentar e encher os corações de alegrias'
+    },
+    {
+      day: 17,
+      month: 8,
+      text: 'historiadoras e historiadores, bem vindos para um dia vindouro, para mais oportunidades de conhecer o passado e entender o futuro que está se desenhando em nossa frente'
     }
   ]
 
