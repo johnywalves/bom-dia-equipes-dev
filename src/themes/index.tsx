@@ -68,7 +68,8 @@ export const themeLabor: FuncTheme = () => [
   'metaleiras e metaleiros, vamos afinar as guitarras, alisar as peles da bateria e preparar a voz, para um show fantástico no dia de hoje, vamos fazer o deus no metal orgulhoso com nosso virtuosismo e excelência',
   'abelhas e abelhos, acordai-vos para beijar as flores, coletar seu néctar e produzir o mais puro mel, em nossas casas perfeitamente hexagonais para guardar nossas conquistas',
   'jornalistas e jornalistos, vamos para mais um dia de pauta e trabalho, revelando a verdade e trazendo para todos novas visões de mundo, juntos vamos fazer um trabalho com ética e responsabilidade, não esqueçam que sempre podemos ter uma nova machete.',
-  'cineastas e cineastos, peguem seus roteiros, câmeras e claques, para gravarmos uma nova obra de arte, usem sua criatividade , conhecimento e experiência para entregar o maior espetáculo do mundo'
+  'cineastas e cineastos, peguem seus roteiros, câmeras e claques, para gravarmos uma nova obra de arte, usem sua criatividade , conhecimento e experiência para entregar o maior espetáculo do mundo',
+  'bom dia, estagiários, prontos para aprender e compartilhar com todos? Então vamos juntos construir nossas carreiras e um mundo melhor para todos'
 ]
 
 export const themeDream: FuncTheme = () => [
