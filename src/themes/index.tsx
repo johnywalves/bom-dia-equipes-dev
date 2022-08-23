@@ -69,7 +69,8 @@ export const themeLabor: FuncTheme = () => [
   'abelhas e abelhos, acordai-vos para beijar as flores, coletar seu néctar e produzir o mais puro mel, em nossas casas perfeitamente hexagonais para guardar nossas conquistas',
   'jornalistas e jornalistos, vamos para mais um dia de pauta e trabalho, revelando a verdade e trazendo para todos novas visões de mundo, juntos vamos fazer um trabalho com ética e responsabilidade, não esqueçam que sempre podemos ter uma nova machete.',
   'cineastas e cineastos, peguem seus roteiros, câmeras e claques, para gravarmos uma nova obra de arte, usem sua criatividade , conhecimento e experiência para entregar o maior espetáculo do mundo',
-  'bom dia, estagiários, prontos para aprender e compartilhar com todos? Então vamos juntos construir nossas carreiras e um mundo melhor para todos'
+  'bom dia, estagiários, prontos para aprender e compartilhar com todos? Então vamos juntos construir nossas carreiras e um mundo melhor para todos',
+  'museologas e museologos, vamos desenterrar tesouros históricos, vamos explorar tempos remotos e trazer para luz do conhecimento a formação da humanidade'
 ]
 
 export const themeDream: FuncTheme = () => [
