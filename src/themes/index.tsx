@@ -17,7 +17,8 @@ export const themeFriday: FuncTheme = () => [
   'bom dia, festeiros para mais uma sexta-feira vamos aproveitar esse finalzinho de fim de semana',
   'bom dia, sexteiras e sexteiros, para mais um dia produtivo, antes do final de semana',
   'festeiras e festeiros, preparem as bebidas, mas espere as 18h para colocar a carne para assar, vamos juntos para mais um sexta-feira bela e produtiva',
-  'sexteiras e sexteiros, chegou mais um sexta-feira, vamos finalizar a semana com chave de ouro, um ótimo dia para todos que o dia seja alegre e produtivo'
+  'sexteiras e sexteiros, chegou mais um sexta-feira, vamos finalizar a semana com chave de ouro, um ótimo dia para todos que o dia seja alegre e produtivo',
+  'booooom dia e ótima sexta-feira, mais um final de semana que se aproxima, vamos aproveitar esse belo dia para produzir e passar o final de semana aproveitoso'
 ]
 
 export const themeHappy: FuncTheme = () => [
@@ -25,7 +26,8 @@ export const themeHappy: FuncTheme = () => [
   'pessoas encantadoras, sabem que dia é hoje? Dia de ser engajado, produtivo e compartilhar experiências! Bom dia para pessoal',
   'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
   'sejam bem-vindos, pessoas de luz para mais um abençoado dia',
-  'conterrâneas e conterrâneos, habitantes de terras brazilis, construtores do país do futuro, resistentes e sonhadores, vamos juntos para mais um belo dia construir um lugar para nos orgulharmos e que nos permita acreditar que o melhor é possível'
+  'conterrâneas e conterrâneos, habitantes de terras brazilis, construtores do país do futuro, resistentes e sonhadores, vamos juntos para mais um belo dia construir um lugar para nos orgulharmos e que nos permita acreditar que o melhor é possível',
+  'vitoriosas e vitoriosos do meu coração, vamos juntos para compartilhar as graças e esperanças para todos'
 ]
 
 export const themeFunny: FuncTheme = () => [
@@ -70,7 +72,11 @@ export const themeLabor: FuncTheme = () => [
   'jornalistas e jornalistos, vamos para mais um dia de pauta e trabalho, revelando a verdade e trazendo para todos novas visões de mundo, juntos vamos fazer um trabalho com ética e responsabilidade, não esqueçam que sempre podemos ter uma nova machete.',
   'cineastas e cineastos, peguem seus roteiros, câmeras e claques, para gravarmos uma nova obra de arte, usem sua criatividade , conhecimento e experiência para entregar o maior espetáculo do mundo',
   'bom dia, estagiários, prontos para aprender e compartilhar com todos? Então vamos juntos construir nossas carreiras e um mundo melhor para todos',
-  'museologas e museologos, vamos desenterrar tesouros históricos, vamos explorar tempos remotos e trazer para luz do conhecimento a formação da humanidade'
+  'museologas e museologos, vamos desenterrar tesouros históricos, vamos explorar tempos remotos e trazer para luz do conhecimento a formação da humanidade',
+  'cafeicultoras e cafeicultores, vamos arar a terra para nutrir o grão sagrado, vamos cultivar com amor e dedicação para gerar o liquido negro para alegrar nosso dia',
+  'equilibristas e equilibristos, confie em suas habilidades e reflexos, vamos nos aventuras nas alturas e conquistar aplausos e glórias',
+  'pilotas e pilotos, peguem suas luvas, ajustem seus capacetes e preparem-se no cockpit, vamos acelerar para conquistar as pistas e horizontes, sempre há um novo horizonte e limites a serem alcançados',
+  'escoteiras e escoteiros, olhos atentos e orelhas ligadas, vamos desenhar a trilha para os nos seguirão, liderar o caminho e criar uma certeza que tudo dará certo no final'
 ]
 
 export const themeDream: FuncTheme = () => [
@@ -183,6 +189,21 @@ export const getThemeDay = (today: Date): DayTheme | undefined => {
       day: 17,
       month: 8,
       text: 'historiadoras e historiadores, bem vindos para um dia vindouro, para mais oportunidades de conhecer o passado e entender o futuro que está se desenhando em nossa frente'
+    },
+    {
+      day: 29,
+      month: 8,
+      text: 'jogadoras e jogadores, esquentam os consoles, ajustem os controles, arrumem um lugar confortável para mais desafios e possibildiades para desenvolver nossas habilidades para garantir conquistas para todos'
+    },
+    {
+      day: 1,
+      month: 9,
+      text: 'fisiculturistas e fisiculturistos, flexionar os musculos, tomar o Whey Protein e muita energia para fazer o supino, vamos esculpir deusas e deuses gregos nesse belo  marmore que chamos de corpo'
+    },
+    {
+      day: 2,
+      month: 9,
+      text: 'floristas e floristos, vamos preparar os cravos, dente de leão e rosas, para fazer belas e inspirados aranjos assim decorar o mundo e nossas vidas'
     }
   ]
 
