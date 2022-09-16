@@ -76,7 +76,8 @@ export const themeLabor: FuncTheme = () => [
   'cafeicultoras e cafeicultores, vamos arar a terra para nutrir o grão sagrado, vamos cultivar com amor e dedicação para gerar o liquido negro para alegrar nosso dia',
   'equilibristas e equilibristos, confie em suas habilidades e reflexos, vamos nos aventuras nas alturas e conquistar aplausos e glórias',
   'pilotas e pilotos, peguem suas luvas, ajustem seus capacetes e preparem-se no cockpit, vamos acelerar para conquistar as pistas e horizontes, sempre há um novo horizonte e limites a serem alcançados',
-  'escoteiras e escoteiros, olhos atentos e orelhas ligadas, vamos desenhar a trilha para os nos seguirão, liderar o caminho e criar uma certeza que tudo dará certo no final'
+  'escoteiras e escoteiros, olhos atentos e orelhas ligadas, vamos desenhar a trilha para os nos seguirão, liderar o caminho e criar uma certeza que tudo dará certo no final',
+  'bom dia, escritoras e escritores, preparem suas referências e liguem para o editor, pois hoje vamos produzir uma obra maravilhosa para inspirar e guiar a humanidade'
 ]
 
 export const themeDream: FuncTheme = () => [
@@ -204,6 +205,16 @@ export const getThemeDay = (today: Date): DayTheme | undefined => {
       day: 2,
       month: 9,
       text: 'floristas e floristos, vamos preparar os cravos, dente de leão e rosas, para fazer belas e inspirados aranjos assim decorar o mundo e nossas vidas'
+    },
+    {
+      day: 14,
+      month: 9,
+      text: 'frevistas e frevistos, vamos pegar nossos guarda chuvas e nos alegrar por mais um dia em ritmo animado com habilidade e desenvolvtura'
+    },
+    {
+      day: 15,
+      month: 9,
+      text: 'democratas e democratos do meu brasil, juntos vamos construir as bases para um futuro ordeiro e prospero para os nossos e todos desta pela pátria'
     }
   ]
 
@@ -245,11 +256,12 @@ const getMessage = () => {
   let theme: FuncTheme
 
   const dayTheme: DayTheme | undefined = getThemeDay(today)
-  if (dayTheme && Math.trunc(Math.random() * 3) === 1) {
+  if (dayTheme && Math.trunc(Math.random() * 2) === 1) {
     return dayTheme.text[0].toUpperCase() + dayTheme.text.slice(1)
   }
 
-  if (Math.trunc(Math.random() * 3) === 1) {
+  let message = ''
+  if (Math.trunc(Math.random() * 4) === 1) {
     switch (today.getDay()) {
       case 1:
         theme = themeMonday
@@ -263,11 +275,19 @@ const getMessage = () => {
       default:
         theme = getTheme(listThemeGenre)
     }
+
+    message = getRandom(theme())
   } else {
-    theme = getTheme(listThemeGenre)
+    let concated = themeHappy().concat(themeHoly())
+    concated = concated.concat(themeFunny())
+    concated = concated.concat(themeTokusatsu())
+    concated = concated.concat(themeArt())
+    concated = concated.concat(themeLabor())
+    concated = concated.concat(themeDream())
+
+    message = getRandom(concated)
   }
 
-  const message = getRandom(theme())
   return message[0].toUpperCase() + message.slice(1)
 }
 
