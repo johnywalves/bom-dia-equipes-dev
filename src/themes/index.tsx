@@ -6,7 +6,9 @@ export const themeMonday: FuncTheme = () => [
   'bom dia, amadas e amados, lindas e lindos para mais um bela e inspiradora semana',
   'boa semana e bom dia para os praticantes das artes tecnológicas, conjuradores de sistemas e encantadores de máquinas',
   'bom dia e boa semana, para os gigantes do meu coração vamos juntos nessa bela semana linda e produtiva',
-  'bom dia e boa semana, para esses gigantes do desenvolvimento nacional, realizadores de grandes feitos e sucessos consecutivos!'
+  'bom dia e boa semana, para esses gigantes do desenvolvimento nacional, realizadores de grandes feitos e sucessos consecutivos!',
+  'ta-da-da-ta-ta-ta, todos abram passagem para a nova semana, que venha os presentes de terras distantes para nos trazer esperanças e alegrias esse semana que se inicia',
+  'bom dia e ótima semana para abelhas coletoras pólen, produtores incansável de mel e amor, vamos juntos para mais essa bela semana'
 ]
 
 export const themeWednesday: FuncTheme = () => [
@@ -77,7 +79,8 @@ export const themeLabor: FuncTheme = () => [
   'equilibristas e equilibristos, confie em suas habilidades e reflexos, vamos nos aventuras nas alturas e conquistar aplausos e glórias',
   'pilotas e pilotos, peguem suas luvas, ajustem seus capacetes e preparem-se no cockpit, vamos acelerar para conquistar as pistas e horizontes, sempre há um novo horizonte e limites a serem alcançados',
   'escoteiras e escoteiros, olhos atentos e orelhas ligadas, vamos desenhar a trilha para os nos seguirão, liderar o caminho e criar uma certeza que tudo dará certo no final',
-  'bom dia, escritoras e escritores, preparem suas referências e liguem para o editor, pois hoje vamos produzir uma obra maravilhosa para inspirar e guiar a humanidade'
+  'bom dia, escritoras e escritores, preparem suas referências e liguem para o editor, pois hoje vamos produzir uma obra maravilhosa para inspirar e guiar a humanidade',
+  'bom dia, treinadores de computadores, vamos colocar eles em ótima forma para realizar o trabalho  deles de forma eficiente'
 ]
 
 export const themeDream: FuncTheme = () => [
