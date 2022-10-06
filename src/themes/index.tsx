@@ -20,7 +20,8 @@ export const themeFriday: FuncTheme = () => [
   'bom dia, sexteiras e sexteiros, para mais um dia produtivo, antes do final de semana',
   'festeiras e festeiros, preparem as bebidas, mas espere as 18h para colocar a carne para assar, vamos juntos para mais um sexta-feira bela e produtiva',
   'sexteiras e sexteiros, chegou mais um sexta-feira, vamos finalizar a semana com chave de ouro, um ótimo dia para todos que o dia seja alegre e produtivo',
-  'booooom dia e ótima sexta-feira, mais um final de semana que se aproxima, vamos aproveitar esse belo dia para produzir e passar o final de semana aproveitoso'
+  'booooom dia e ótima sexta-feira, mais um final de semana que se aproxima, vamos aproveitar esse belo dia para produzir e passar o final de semana aproveitoso',
+  'bom dia e uma ótima sexta-feira, 🍾🎉🎉 mais um belo dia para  comemorar, vamos juntos para esse maravilhoso dia'
 ]
 
 export const themeHappy: FuncTheme = () => [
@@ -41,7 +42,8 @@ export const themeFunny: FuncTheme = () => [
   'senhoras, senhores e o maravilhoso arco-íris entre esses dois, bom dia para mais um dia de foco, força e fé',
   'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
   'magas e magos, vamos unir nossos feitiços para conjurar um dia belo e uma semana maravilhosa, cheia de magia e colorida com várias realizações e sucesso',
-  'conterrâneas e conterrâneos, bem vindos para mais um dia para esse belo planeta que convencionamos chamar de Terra, para mais uma maravilhosa rotação no próprio eixo, chamamos dele uma aurora boa e produtiva'
+  'conterrâneas e conterrâneos, bem vindos para mais um dia para esse belo planeta que convencionamos chamar de Terra, para mais uma maravilhosa rotação no próprio eixo, chamamos dele uma aurora boa e produtiva',
+  'ahoy! todos a bordo! Vamos juntos navegar pelo o mundo conhecer as maravilhas que ocultam somente para olhos despertos e explorar cada canto desta bela'
 ]
 
 export const themeHoly: FuncTheme = () => [
@@ -82,7 +84,9 @@ export const themeLabor: FuncTheme = () => [
   'bom dia, escritoras e escritores, preparem suas referências e liguem para o editor, pois hoje vamos produzir uma obra maravilhosa para inspirar e guiar a humanidade',
   'bom dia, treinadores de computadores, vamos colocar eles em ótima forma para realizar o trabalho  deles de forma eficiente',
   'encanadoras e encanadores, bom dia para mais uma bela amanhã, vamos manter o fluxo correndo, vamos irrigar o mundo para florecer as flores e esperanças de todos',
-  'jornalistas e jornalistos, munidos com uma caneta e uma câmera, vamos desvelar a verdade e trazer  a luz os secretos do poder'
+  'jornalistas e jornalistos, munidos com uma caneta e uma câmera, vamos desvelar a verdade e trazer  a luz os secretos do poder',
+  'tipografas e tipografos, criadores de letras e formas, inventores das expressão de comunicação, vamos para mais um belo dia para facilitar a expressão da humanidade',
+  'tecnologas e tecnologos do meu coração, vamos juntos evoluir o primeiro técnico da humanidade e criar novas maneiras de alcançar a alma de todos nesse mundo'
 ]
 
 export const themeDream: FuncTheme = () => [
@@ -220,6 +224,11 @@ export const getThemeDay = (today: Date): DayTheme | undefined => {
       day: 15,
       month: 9,
       text: 'democratas e democratos do meu brasil, juntos vamos construir as bases para um futuro ordeiro e prospero para os nossos e todos desta pela pátria'
+    },
+    {
+      day: 4,
+      month: 10,
+      text: 'bartenders, bom dia, vamos preparar nossas misturas e treinar nossas performances vamos para mais um dia de trabalho para encantar e alegrar '
     }
   ]
 
