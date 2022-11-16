@@ -8,7 +8,8 @@ export const themeMonday: FuncTheme = () => [
   'bom dia e boa semana, para os gigantes do meu coração vamos juntos nessa bela semana linda e produtiva',
   'bom dia e boa semana, para esses gigantes do desenvolvimento nacional, realizadores de grandes feitos e sucessos consecutivos!',
   'ta-da-da-ta-ta-ta, todos abram passagem para a nova semana, que venha os presentes de terras distantes para nos trazer esperanças e alegrias esse semana que se inicia',
-  'bom dia e ótima semana para abelhas coletoras pólen, produtores incansável de mel e amor, vamos juntos para mais essa bela semana'
+  'bom dia e ótima semana para abelhas coletoras pólen, produtores incansável de mel e amor, vamos juntos para mais essa bela semana',
+  'vamos puxar a fiação e verificar a voltagem, para conduzir a energia que irá iluminar nosso caminho para garantir um ótimo dia e uma boa semana para todos ⚡ 🔋 💡'
 ]
 
 export const themeWednesday: FuncTheme = () => [
@@ -21,7 +22,9 @@ export const themeFriday: FuncTheme = () => [
   'festeiras e festeiros, preparem as bebidas, mas espere as 18h para colocar a carne para assar, vamos juntos para mais um sexta-feira bela e produtiva',
   'sexteiras e sexteiros, chegou mais um sexta-feira, vamos finalizar a semana com chave de ouro, um ótimo dia para todos que o dia seja alegre e produtivo',
   'booooom dia e ótima sexta-feira, mais um final de semana que se aproxima, vamos aproveitar esse belo dia para produzir e passar o final de semana aproveitoso',
-  'bom dia e uma ótima sexta-feira, 🍾🎉🎉 mais um belo dia para  comemorar, vamos juntos para esse maravilhoso dia'
+  'bom dia e uma ótima sexta-feira, 🍾🎉🎉 mais um belo dia para  comemorar, vamos juntos para esse maravilhoso dia',
+  '🎺🥁  Ta-ta-ta-da 🎺🥁, Eis que entra mais uma bela sexta-feira, espero que todos tenham um dia maravilhoso, produtivo e esperançoso',
+  'Investidores, construtores do novo mundo, vamos gerar das nossas ideias e concretizar um novo dia maravilhoso e nos preparar para um fim semana incrivel ⭐ 💡 🏗️'
 ]
 
 export const themeHappy: FuncTheme = () => [
@@ -30,7 +33,7 @@ export const themeHappy: FuncTheme = () => [
   'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
   'sejam bem-vindos, pessoas de luz para mais um abençoado dia',
   'conterrâneas e conterrâneos, habitantes de terras brazilis, construtores do país do futuro, resistentes e sonhadores, vamos juntos para mais um belo dia construir um lugar para nos orgulharmos e que nos permita acreditar que o melhor é possível',
-  'vitoriosas e vitoriosos do meu coração, vamos juntos para compartilhar as graças e esperanças para todos'
+  'vitoriosas e vitoriosos do meu coração, vamos juntos para compartilhar as graças e esperanças para todos ♥️ ⭐ 🍀'
 ]
 
 export const themeFunny: FuncTheme = () => [
@@ -43,7 +46,7 @@ export const themeFunny: FuncTheme = () => [
   'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
   'magas e magos, vamos unir nossos feitiços para conjurar um dia belo e uma semana maravilhosa, cheia de magia e colorida com várias realizações e sucesso',
   'conterrâneas e conterrâneos, bem vindos para mais um dia para esse belo planeta que convencionamos chamar de Terra, para mais uma maravilhosa rotação no próprio eixo, chamamos dele uma aurora boa e produtiva',
-  'ahoy! todos a bordo! Vamos juntos navegar pelo o mundo conhecer as maravilhas que ocultam somente para olhos despertos e explorar cada canto desta bela'
+  'ahoy! todos a bordo! Vamos juntos navegar pelo o mundo conhecer as maravilhas que ocultam somente para olhos despertos e explorar cada canto desta bela ⛵ 🌊 🚢'
 ]
 
 export const themeHoly: FuncTheme = () => [
@@ -87,14 +90,21 @@ export const themeLabor: FuncTheme = () => [
   'encanadoras e encanadores, bom dia para mais uma bela amanhã, vamos manter o fluxo correndo, vamos irrigar o mundo para florecer as flores e esperanças de todos',
   'jornalistas e jornalistos, munidos com uma caneta e uma câmera, vamos desvelar a verdade e trazer  a luz os secretos do poder',
   'tipografas e tipografos, criadores de letras e formas, inventores das expressão de comunicação, vamos para mais um belo dia para facilitar a expressão da humanidade',
-  'tecnologas e tecnologos do meu coração, vamos juntos evoluir o primeiro técnico da humanidade e criar novas maneiras de alcançar a alma de todos nesse mundo'
+  'tecnologas e tecnologos do meu coração, vamos juntos evoluir o primeiro técnico da humanidade e criar novas maneiras de alcançar a alma de todos nesse mundo',
+  'doutoras e doutores, bom dia, mestres do conhecimento, desbravadores do desconhecido e conduzes das pesquisas, vamos juntos para mais um belo dia para trazer a luz um novo futuro 🥼 🧪',
+  'poetisas e poetas, bom dia, encantadores de palavras, vamos juntos encantar o mundo com pelos poemas e escritas fantásticas, vamos conquistar o amanhã nas ideias de hoje',
+  'bom dia, urbanistas e planejadores de cidades, pega a visão de futuro e bem viver para estruturar sonhos e áreas urbanas pensadas para pessoas e realizações',
+  'padeiras e padeiros, vamos juntos preparar o pão de cada dia, para garantir um belo dia para todos, com uma farinha de qualidade, dedicação e carinho 🍞 🧑‍🍳 🥖',
+  'pescadoras e pescadores, observadores do mar, exploradores das terras azuis, descobridores de novas riquezas, vamos juntos usar de forma consciente a riqueza dos mares ⛵🐟🐚'
 ]
 
 export const themeDream: FuncTheme = () => [
   'conterrâneas e conterrâneos, habitantes de terras brazilis, construtores do país do futuro, resistentes e sonhadores, vamos juntos para mais um belo dia construir um lugar para nos orgulharmos e que nos permita acreditar que o melhor é possível',
   'sonhadoras e sonhadores, acordai-vos para o novo dia vamos fazer ele belo e produtivo, para que nossas cabeças possam descansar e sempre aproveitar o novo dia para correr atrás de nossos sonhos',
   'damas e cavalheiros, espero que a alvorada de um novo dia traga oportunidades para realizar seus sonhos e anseios',
-  'portadoras e portadores da chama, guias da humanidade e descobridores de caminhos, vamos desvelar as trevas da ignorância e abrir passagem para um novo dia compartilhando a chama do conhecimento a todas as pessoas'
+  'portadoras e portadores da chama, guias da humanidade e descobridores de caminhos, vamos desvelar as trevas da ignorância e abrir passagem para um novo dia compartilhando a chama do conhecimento a todas as pessoas',
+  'visionárias e visionários, vamos usar nossos olhos aguçados para ver o futuro e além, não vamos esperar por isso, vamos construir com nossas mentes e mãos',
+  'bom dia, guardiães e guardiões dos sonhos e esperanças, vamos juntos construir novos horizontes e visualizar novos caminhos para alcançarmos alvo'
 ]
 
 type DayTheme = { day: number; month: number; text: string }
@@ -230,6 +240,31 @@ export const getThemeDay = (today: Date): DayTheme | undefined => {
       day: 4,
       month: 10,
       text: 'bartenders, bom dia, vamos preparar nossas misturas e treinar nossas performances vamos para mais um dia de trabalho para encantar e alegrar '
+    },
+    {
+      day: 25,
+      month: 10,
+      text: 'bom dia, para o povo do meu coração, camaradas da luta diária para gerar um mundo melhor, membros da sociedade crescente e progredindo, levantem e olhem para cima esse é o caminho'
+    },
+    {
+      day: 26,
+      month: 10,
+      text: 'construtoras e construtores, vocês conseguem visualizar o destino final de nossa obra? Vamos juntos levantar os materiais e com destreza vamos juntos to realizar grandes maravilhas'
+    },
+    {
+      day: 27,
+      month: 10,
+      text: 'bom dia, agronomas e agronomos, vamos verificar o ph do solo, checar o nível do nitrogênio e do potásio, por que hoje vamos fazer crescer e florescer novas e fartas safras 🌱🌽 🍅'
+    },
+    {
+      day: 9,
+      month: 11,
+      text: 'bom dia, lutadoras e lutadores, apertem as luvas e preparem a respiração, vamos juntos emfrentar as injustiças do mundo para construir uma comunidade de melhor para todos'
+    },
+    {
+      day: 14,
+      month: 11,
+      text: 'desbravadoras e desbravadores, vamos marcar o caminho para o progresso e o desenvolvimento, vamos na frente para mostrar como se avança! '
     }
   ]
 
