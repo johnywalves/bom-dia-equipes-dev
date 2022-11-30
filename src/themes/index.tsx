@@ -68,7 +68,7 @@ export const themeArt: FuncTheme = () => [
 export const themeLabor: FuncTheme = () => [
   'astrônomas e astrônomos, observai o céu a aproximação da sol marcando um novo dia iluminando novas esperanças entendendo o cosmos para gerar conhecimento',
   'confeiteiras e confeiteiros, vamos aquecer o forno e preparar as formas para decorar um dia maravilhoso e caprichar nas formas, detalhes e sabores para nossas entregas de hoje',
-  'naturalistas e naturalistos, vamos explorar o muindo para descobrir novas formas de entregar resultados e teorizar sobre a evolução de nosso produto, nessa bela quarta-feira',
+  'naturalistas e naturalistos, vamos explorar o mundo para descobrir novas formas de entregar resultados e teorizar sobre a evolução de nosso produto, nesse belo dia 🌲 🌳 🌴',
   'advogadas e advogados, preparem seus argumentos, laudos e citações pois temos um cliente para defender contra as injustiças deste mundo, que tenhamos sucesso nesse belo e iluminado dia',
   'jogadoras e jogadores, vamos nos preparar para mais um partida que será fantástica desse time prepadado e dedicado',
   'escultoras e escultores, bom dia e uma ótima semana, para criar obras maravilhosas para encantar o cliente e descobrir novas formas de tralhar a realidade do material bruto',
@@ -104,7 +104,8 @@ export const themeDream: FuncTheme = () => [
   'damas e cavalheiros, espero que a alvorada de um novo dia traga oportunidades para realizar seus sonhos e anseios',
   'portadoras e portadores da chama, guias da humanidade e descobridores de caminhos, vamos desvelar as trevas da ignorância e abrir passagem para um novo dia compartilhando a chama do conhecimento a todas as pessoas',
   'visionárias e visionários, vamos usar nossos olhos aguçados para ver o futuro e além, não vamos esperar por isso, vamos construir com nossas mentes e mãos',
-  'bom dia, guardiães e guardiões dos sonhos e esperanças, vamos juntos construir novos horizontes e visualizar novos caminhos para alcançarmos alvo'
+  'bom dia, guardiães e guardiões dos sonhos e esperanças, vamos juntos construir novos horizontes e visualizar novos caminhos para alcançarmos alvo',
+  'que o sol brilhe para ti, iluminando seu caminho! ☀️ Que o horizonte seja somente uma referência, não um limite! 🌅'
 ]
 
 type DayTheme = { day: number; month: number; text: string }
@@ -264,7 +265,12 @@ export const getThemeDay = (today: Date): DayTheme | undefined => {
     {
       day: 14,
       month: 11,
-      text: 'desbravadoras e desbravadores, vamos marcar o caminho para o progresso e o desenvolvimento, vamos na frente para mostrar como se avança! '
+      text: 'desbravadoras e desbravadores, vamos marcar o caminho para o progresso e o desenvolvimento, vamos na frente para mostrar como se avança!'
+    },
+    {
+      day: 24,
+      month: 11,
+      text: 'bom dia, pelegrinas e pelegrinos, vamos agradecer todos pelo belo mundo que vivemos, pelos encontros da vida e esperança nossa de cada dia! 🦃 🙏 ☀️'
     }
   ]
 
