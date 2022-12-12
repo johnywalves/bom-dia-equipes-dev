@@ -86,7 +86,7 @@ export const themeLabor: FuncTheme = () => [
   'pilotas e pilotos, peguem suas luvas, ajustem seus capacetes e preparem-se no cockpit, vamos acelerar para conquistar as pistas e horizontes, sempre há um novo horizonte e limites a serem alcançados',
   'escoteiras e escoteiros, olhos atentos e orelhas ligadas, vamos desenhar a trilha para os nos seguirão, liderar o caminho e criar uma certeza que tudo dará certo no final',
   'bom dia, escritoras e escritores, preparem suas referências e liguem para o editor, pois hoje vamos produzir uma obra maravilhosa para inspirar e guiar a humanidade',
-  'bom dia, treinadores de computadores, vamos colocar eles em ótima forma para realizar o trabalho  deles de forma eficiente',
+  'bom dia, treinadores de computadores, vamos colocar eles em ótima forma para realizar o trabalho  deles de forma eficiente 🖥️ 🚊 🤖',
   'encanadoras e encanadores, bom dia para mais uma bela amanhã, vamos manter o fluxo correndo, vamos irrigar o mundo para florecer as flores e esperanças de todos',
   'jornalistas e jornalistos, munidos com uma caneta e uma câmera, vamos desvelar a verdade e trazer  a luz os secretos do poder',
   'tipografas e tipografos, criadores de letras e formas, inventores das expressão de comunicação, vamos para mais um belo dia para facilitar a expressão da humanidade',
