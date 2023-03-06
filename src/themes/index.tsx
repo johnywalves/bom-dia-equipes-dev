@@ -95,7 +95,10 @@ export const themeLabor: FuncTheme = () => [
   'poetisas e poetas, bom dia, encantadores de palavras, vamos juntos encantar o mundo com pelos poemas e escritas fantásticas, vamos conquistar o amanhã nas ideias de hoje',
   'bom dia, urbanistas e planejadores de cidades, pega a visão de futuro e bem viver para estruturar sonhos e áreas urbanas pensadas para pessoas e realizações',
   'padeiras e padeiros, vamos juntos preparar o pão de cada dia, para garantir um belo dia para todos, com uma farinha de qualidade, dedicação e carinho 🍞 🧑‍🍳 🥖',
-  'pescadoras e pescadores, observadores do mar, exploradores das terras azuis, descobridores de novas riquezas, vamos juntos usar de forma consciente a riqueza dos mares ⛵🐟🐚'
+  'pescadoras e pescadores, observadores do mar, exploradores das terras azuis, descobridores de novas riquezas, vamos juntos usar de forma consciente a riqueza dos mares ⛵ 🐟 🐚',
+  'bom dia, engenheiras, engenheiros e conhecedores das técnicas do mundo, vamos juntos projetar esse belo avião para alcançar voo mais altos e conquistar novos horizontes 🛩️ 🔧 ⚗️', 
+  'jardineiras e jardineiros do meu coração, vamos preparar a terra para cultivar pelas flores e fazer deste dia uma maravilha 🌺 🧑‍🌾 🌸',
+  'atletas, vamos fazer os alongamentos, aquecer os musculos e nos preparar para mais um belo e maravilhoso dia para todos 👟🎽'
 ]
 
 export const themeDream: FuncTheme = () => [
