@@ -23,15 +23,15 @@ export const themeFriday: FuncTheme = () => [
   'sexteiras e sexteiros, chegou mais um sexta-feira, vamos finalizar a semana com chave de ouro, um ótimo dia para todos que o dia seja alegre e produtivo',
   'booooom dia e ótima sexta-feira, mais um final de semana que se aproxima, vamos aproveitar esse belo dia para produzir e passar o final de semana aproveitoso',
   'bom dia e uma ótima sexta-feira, 🍾🎉🎉 mais um belo dia para  comemorar, vamos juntos para esse maravilhoso dia',
-  '🎺🥁  Ta-ta-ta-da 🎺🥁, Eis que entra mais uma bela sexta-feira, espero que todos tenham um dia maravilhoso, produtivo e esperançoso',
+  '🎺🥁 Ta-ta-ta-da 🎺🥁, Eis que entra mais uma bela sexta-feira, espero que todos tenham um dia maravilhoso, produtivo e esperançoso',
   'Investidores, construtores do novo mundo, vamos gerar das nossas ideias e concretizar um novo dia maravilhoso e nos preparar para um fim semana incrivel ⭐ 💡 🏗️'
 ]
 
 export const themeHappy: FuncTheme = () => [
   'bom dia, engenheiras e engenheiros para construir pontes e plataformas para unir pessoas',
-  'pessoas encantadoras, sabem que dia é hoje? Dia de ser engajado, produtivo e compartilhar experiências! Bom dia para pessoal',
-  'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
-  'sejam bem-vindos, pessoas de luz para mais um abençoado dia',
+  'pessoas encantadoras, vocês sabem qual é o dia de hoje? É o dia de nos engajarmos, sermos produtivos e compartilharmos experiências! Desejo a todos um excelente dia!',
+  'pássaros e pássaras, despertem para este lindo dia que se inicia! Vamos celebrar as alegrias das conquistas passadas e nos preparar para os desafios que o futuro nos reserva',
+  'sejam todos bem-vindos, seres iluminados, a mais um dia abençoado',
   'conterrâneas e conterrâneos, habitantes de terras brazilis, construtores do país do futuro, resistentes e sonhadores, vamos juntos para mais um belo dia construir um lugar para nos orgulharmos e que nos permita acreditar que o melhor é possível',
   'vitoriosas e vitoriosos do meu coração, vamos juntos para compartilhar as graças e esperanças para todos ♥️ ⭐ 🍀'
 ]
@@ -40,18 +40,16 @@ export const themeFunny: FuncTheme = () => [
   'bom dia, amandes da chuva e paqueradores do sol para mais um dia belo e sorridente',
   'bom dia, luthiers! Para mais uma oportunidades de desenvolver a ferramenta que irá produzir o som da alma para encantar pessoas',
   'humanas e humanos, boa rotação, para os habitantes da mais bela esfera que a translada essa estrela amarela',
-  'damas e cavalheiros, espero que a alvorada de um novo dia traga oportunidades para realizar seus sonhos e anseios',
+  'Damas e cavalheiros, que a aurora de um novo dia traga consigo a esperança de realizar seus sonhos e aspirações.',
   'ideias, design e muita teoria esses foram os ingredientes escolhidos para montar a equipe perfeita, mas o professor acidentalmente acrescentou o ingrediente extra na mistura o elemento Café, e assim nasceu o nesse time maravilhoso',
   'senhoras, senhores e o maravilhoso arco-íris entre esses dois, bom dia para mais um dia de foco, força e fé',
-  'pássaras e pássaros, acordai-vos para esse belo dia que se inicia, vamos cantar as alegrias das conquistas passadas e migrar para os desafios futuros',
   'magas e magos, vamos unir nossos feitiços para conjurar um dia belo e uma semana maravilhosa, cheia de magia e colorida com várias realizações e sucesso',
-  'conterrâneas e conterrâneos, bem vindos para mais um dia para esse belo planeta que convencionamos chamar de Terra, para mais uma maravilhosa rotação no próprio eixo, chamamos dele uma aurora boa e produtiva',
+  'prezadas e prezados, sejam bem-vindos a mais um dia neste belo planeta que chamamos de Terra. Hoje, embarcaremos em mais uma maravilhosa jornada de rotação em torno de nosso próprio eixo. Desejamos a todos um amanhecer próspero e cheio de realizações',
   'ahoy! todos a bordo! Vamos juntos navegar pelo o mundo conhecer as maravilhas que ocultam somente para olhos despertos e explorar cada canto desta bela ⛵ 🌊 🚢'
 ]
 
 export const themeHoly: FuncTheme = () => [
   'irmãs e irmãos, já agradeceram por acordarem bem e saudáveis neste belo dia? Que ele veja cada vez mais iluminado',
-  'sejam bem-vindos, pessoas de luz para mais um abençoado dia',
   'consagradas e consagrados, o deus que habita em mim cumprimenta o deus que habita em vocês para lhes desejarem boas energias e ótimos eventos vindoros',
   'bom dia, santas e santos, que o louvor do altissimo abençoe a todos, para mais um dia de graça e iluminação'
 ]
