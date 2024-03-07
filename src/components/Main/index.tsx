@@ -9,17 +9,12 @@ const Main = ({ message }: MainProps) => {
   const [styleGoodMorning, setStyleGoodMorning] = useState({})
   const [copied, setCopied] = useState(false)
   const [theme, setTheme] = useState('')
-  const [year, setYear] = useState('')
 
   const isDarkMode = theme === 'dark'
 
   useEffect(() => {
     setTheme(window.__theme)
     window.__onThemeChange = () => setTheme(window.__theme)
-  }, [])
-
-  useEffect(() => {
-    setYear(new Date().getFullYear().toString())
   }, [])
 
   useEffect(() => {
@@ -31,17 +26,9 @@ const Main = ({ message }: MainProps) => {
     return () => clearTimeout(timer)
   }, [copied])
 
-  const copy = useCallback(() => {
-    const el = document.createElement('input')
-    document.body.appendChild(el)
-    el.setAttribute('type', 'text')
-    el.setAttribute('value', message)
-    el.select()
-    el.setSelectionRange(0, 99999)
-    if (document.execCommand('copy')) {
-      setCopied(true)
-      el.remove()
-    }
+  const copy = useCallback(async () => {
+    await navigator.clipboard.writeText(message)
+    setCopied(true)
   }, [setCopied, message])
 
   const backCopy = useCallback(() => {
@@ -59,7 +46,7 @@ const Main = ({ message }: MainProps) => {
       )}
       <S.Footer style={styleGoodMorning}>
         <p>
-          ©{year} made with ♥ by{' '}
+          Made with <span>♥</span> by{' '}
           <a
             href="https://www.johnywalves.com.br"
             rel="noopener noreferrer"

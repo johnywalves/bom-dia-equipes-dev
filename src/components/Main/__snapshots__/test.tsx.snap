@@ -1,23 +1,94 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  background-color: var(--bg);
+  color: var(--textNormal);
+  width: 100%;
+  height: 100%;
+  padding: '3rem';
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c0 a {
+  color: var(--textLink);
+  text-decoration: none;
+}
+
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  font-size: 3rem;
+  width: min(50rem,100%);
+  transition: opacity 2s;
+  transition-delay: 0.5s;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.c3 {
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  right: 1.75rem;
+  top: 1.75rem;
+  z-index: 1;
+  border: solid 1px var(--bg);
+  transition: all 0.5s cubic-bezier(0,0.92,0.27,0.82);
+  cursor: pointer;
+  background-color: var(--bg);
+  box-shadow: inset 2px -2px 0px 0px #ffffff,inset 8px -8px 0px 0px #d8e8f7;
+}
+
+.light .c3 {
+  background-color: #ffdb01!important;
+  box-shadow: inset -4px 0px 0px #ff8603,inset 2px 0px 0px #ffffffcc,inset -5px 0px 0px 2px #ffd201,0px 0px 0px 8px #ffd20133,0px 0px 0px 16px #ffd20133,0px 0px 0px 24px #ffd20111,0px 0px 0px 130vh #fff,0px 0px 0px 130vw #fff,0px 0px 0px 200vh #ffffff55,0px 0px 0px 200vw #ffffff55;
+}
+
+.c2 {
+  opacity: 0;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 2rem;
+  transition: opacity 2.5s;
+  transition-delay: 1.5s;
+  z-index: 2;
+}
+
+.c2 span {
+  color: #e01324;
+  margin: 0 0.5rem;
+}
+
 <main
-  class="styles__Wrapper-sc-1k8d0zu-0 kdLOfQ"
+  class="c0"
 >
   <h1
-    class="styles__GoodMorning-sc-1k8d0zu-1 iCffMp"
+    class="c1"
     style="opacity: 1;"
   >
     Testing message
   </h1>
   <footer
-    class="styles__Footer-sc-1k8d0zu-4 cOTAKZ"
+    class="c2"
     style="opacity: 1;"
   >
     <p>
-      ©
-      2021
-       made with ♥ by
+      Made with 
+      <span>
+        ♥
+      </span>
+       by
        
       <a
         href="https://www.johnywalves.com.br"
@@ -29,7 +100,7 @@ exports[`<Main /> should render the heading 1`] = `
     </p>
   </footer>
   <div
-    class="styles__Astro-sc-1k8d0zu-3 fgYxvE"
+    class="c3"
   />
 </main>
 `;

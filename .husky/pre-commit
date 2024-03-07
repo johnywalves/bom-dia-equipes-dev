@@ -1,5 +1,4 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-yarn lint --fix
-yarn test --findRelatedTests src/**/* --bail
+npm run format
+npm run lint:fix
+npm run test:bail
+npm run next:lint

@@ -58,15 +58,23 @@ export const Astro = styled.div`
   transition: all 0.5s cubic-bezier(0, 0.92, 0.27, 0.82);
   cursor: pointer;
   background-color: var(--bg);
-  box-shadow: inset 2px -2px 0px 0px #ffffff, inset 8px -8px 0px 0px #d8e8f7;
+  box-shadow:
+    inset 2px -2px 0px 0px #ffffff,
+    inset 8px -8px 0px 0px #d8e8f7;
 
   .light & {
     background-color: #ffdb01 !important;
-    box-shadow: inset -4px 0px 0px #ff8603, inset 2px 0px 0px #ffffffcc,
-      inset -5px 0px 0px 2px #ffd201, 0px 0px 0px 8px #ffd20133,
-      0px 0px 0px 16px #ffd20133, 0px 0px 0px 24px #ffd20111,
-      0px 0px 0px 130vh #fff, 0px 0px 0px 130vw #fff,
-      0px 0px 0px 200vh #ffffff55, 0px 0px 0px 200vw #ffffff55;
+    box-shadow:
+      inset -4px 0px 0px #ff8603,
+      inset 2px 0px 0px #ffffffcc,
+      inset -5px 0px 0px 2px #ffd201,
+      0px 0px 0px 8px #ffd20133,
+      0px 0px 0px 16px #ffd20133,
+      0px 0px 0px 24px #ffd20111,
+      0px 0px 0px 130vh #fff,
+      0px 0px 0px 130vw #fff,
+      0px 0px 0px 200vh #ffffff55,
+      0px 0px 0px 200vw #ffffff55;
   }
 `
 
@@ -78,4 +86,9 @@ export const Footer = styled.footer`
   transition: opacity 2.5s;
   transition-delay: 1.5s;
   z-index: 2;
+
+  span {
+    color: #e01324;
+    margin: 0 0.5rem;
+  }
 `
