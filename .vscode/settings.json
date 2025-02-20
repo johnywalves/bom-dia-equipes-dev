@@ -2,5 +2,11 @@
     "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
-    }
+    },
+    "cSpell.words": [
+        "friday",
+        "monday",
+        "tokusatsu",
+        "wednesday"
+    ]
 }

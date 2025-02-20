@@ -1,11 +1,8 @@
 import { useCallback, useState, useEffect } from 'react'
-import * as S from './styles'
 
-type MainProps = {
-  message: string
-}
+import { Wrapper, Copied, GoodMorning, Footer, Astro } from './styles'
 
-const Main = ({ message }: MainProps) => {
+const Main = ({ message }: { message: string }) => {
   const [styleGoodMorning, setStyleGoodMorning] = useState({})
   const [copied, setCopied] = useState(false)
   const [theme, setTheme] = useState('')
@@ -36,15 +33,15 @@ const Main = ({ message }: MainProps) => {
   }, [])
 
   return (
-    <S.Wrapper>
+    <Wrapper>
       {copied ? (
-        <S.Copied onClick={backCopy}>Copiado!</S.Copied>
+        <Copied onClick={backCopy}>Copiado!</Copied>
       ) : (
-        <S.GoodMorning style={styleGoodMorning} onClick={copy}>
+        <GoodMorning style={styleGoodMorning} onClick={copy}>
           {message}
-        </S.GoodMorning>
+        </GoodMorning>
       )}
-      <S.Footer style={styleGoodMorning}>
+      <Footer style={styleGoodMorning}>
         <p>
           Made with <span>♥</span> by{' '}
           <a
@@ -55,13 +52,13 @@ const Main = ({ message }: MainProps) => {
             Johny W. Alves
           </a>
         </p>
-      </S.Footer>
-      <S.Astro
+      </Footer>
+      <Astro
         onClick={() => {
           window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
         }}
       />
-    </S.Wrapper>
+    </Wrapper>
   )
 }
 

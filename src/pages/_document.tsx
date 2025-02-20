@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/next-script-for-ga */
 import Document, {
   Html,
   Head,
@@ -5,6 +6,7 @@ import Document, {
   NextScript,
   DocumentContext
 } from 'next/document'
+
 import { ServerStyleSheet } from 'styled-components'
 
 type ThemeChangeType = () => void
