@@ -3,6 +3,30 @@ import { DayTheme } from './types'
 const getThemeDay = (today: Date): DayTheme | undefined => {
   const list: Array<DayTheme> = [
     {
+      id: 'day_0219_A',
+      month: 2,
+      day: 19,
+      text: 'Esportistas e esportistos , se alonguem, focalize o movimento e pulem para o recorde, vamos para mais uma partida, em rumo a auto superação e novas conquistas 🏆🏅🏃‍♀🏃‍♂'
+    },
+    {
+      id: 'day_0220_A',
+      month: 2,
+      day: 20,
+      text: 'Juízas e juízes, vamos juntos para um dia de ponderações e escolhas, sempre fazendo uso de nossos melhores juízos e á salvos de data venhas 🧑‍⚖🔨'
+    },
+    {
+      id: 'day_0226_A',
+      month: 2,
+      day: 26,
+      text: 'Comediantas e comediantes, bom dia para mais dia de alegrias, diversão e bom humor, vamos juntos trazer sorrisos e animação para todos 🎉🤣😆 '
+    },
+    {
+      id: 'day_02276_A',
+      month: 2,
+      day: 27,
+      text: 'Didatas e didatos, bom dia! Preparem seus livros, afinem suas aulas e aquecem suas vozes para uma mais belo e inspirador dia 💛☀'
+    },
+    {
       id: 'day_0308_A',
       month: 3,
       day: 8,

@@ -11,7 +11,7 @@ const themeLabor: FuncTheme = () => [
   },
   {
     id: 'labor_C',
-    text: 'naturalistas e naturalistos, vamos explorar o mundo para descobrir novas formas de entregar resultados e teorizar sobre a evolução de nosso produto, nesse belo dia 🌲 🌳 🌴'
+    text: 'naturalistas e naturalistos, vamos explorar o mundo para descobrir novas formas de entregar resultados e teorizar sobre a evolução de nosso produto, nesse belo dia 🌲🌳🌴'
   },
   {
     id: 'labor_D',
@@ -83,7 +83,7 @@ const themeLabor: FuncTheme = () => [
   },
   {
     id: 'labor_U',
-    text: 'bom dia, treinadores de computadores, vamos colocar eles em ótima forma para realizar o trabalho  deles de forma eficiente 🖥️ 🚊 🤖'
+    text: 'bom dia, treinadores de computadores, vamos colocar eles em ótima forma para realizar o trabalho  deles de forma eficiente 🖥️🚊🤖'
   },
   {
     id: 'labor_V',
@@ -103,7 +103,7 @@ const themeLabor: FuncTheme = () => [
   },
   {
     id: 'labor_Z',
-    text: 'doutoras e doutores, bom dia, mestres do conhecimento, desbravadores do desconhecido e conduzes das pesquisas, vamos juntos para mais um belo dia para trazer a luz um novo futuro 🥼 🧪'
+    text: 'doutoras e doutores, bom dia, mestres do conhecimento, desbravadores do desconhecido e conduzes das pesquisas, vamos juntos para mais um belo dia para trazer a luz um novo futuro 🥼🧪'
   },
   {
     id: 'labor_1',
@@ -115,23 +115,31 @@ const themeLabor: FuncTheme = () => [
   },
   {
     id: 'labor_3',
-    text: 'padeiras e padeiros, vamos juntos preparar o pão de cada dia, para garantir um belo dia para todos, com uma farinha de qualidade, dedicação e carinho 🍞 🧑‍🍳 🥖'
+    text: 'padeiras e padeiros, vamos juntos preparar o pão de cada dia, para garantir um belo dia para todos, com uma farinha de qualidade, dedicação e carinho 🍞🧑‍🍳🥖'
   },
   {
     id: 'labor_4',
-    text: 'pescadoras e pescadores, observadores do mar, exploradores das terras azuis, descobridores de novas riquezas, vamos juntos usar de forma consciente a riqueza dos mares ⛵ 🐟 🐚'
+    text: 'pescadoras e pescadores, observadores do mar, exploradores das terras azuis, descobridores de novas riquezas, vamos juntos usar de forma consciente a riqueza dos mares ⛵🐟🐚'
   },
   {
     id: 'labor_5',
-    text: 'bom dia, engenheiras, engenheiros e conhecedores das técnicas do mundo, vamos juntos projetar esse belo avião para alcançar voo mais altos e conquistar novos horizontes 🛩️ 🔧 ⚗️'
+    text: 'bom dia, engenheiras, engenheiros e conhecedores das técnicas do mundo, vamos juntos projetar esse belo avião para alcançar voo mais altos e conquistar novos horizontes 🛩️🔧⚗️'
   },
   {
     id: 'labor_6',
-    text: 'jardineiras e jardineiros do meu coração, vamos preparar a terra para cultivar pelas flores e fazer deste dia uma maravilha 🌺 🧑‍🌾 🌸'
+    text: 'jardineiras e jardineiros do meu coração, vamos preparar a terra para cultivar pelas flores e fazer deste dia uma maravilha 🌺🧑‍🌾🌸'
   },
   {
     id: 'labor_7',
     text: 'atletas, vamos fazer os alongamentos, aquecer os músculos e nos preparar para mais um belo e maravilhoso dia para todos 👟🎽'
+  },
+  {
+    id: 'labor_8',
+    text: 'Espiãs e espiões, preparem equipamentos e projetos, vamos juntos para mais um belo dia de descobertas e reconhecimentos 👁️🔭☎️'
+  },
+  {
+    id: 'labor_9',
+    text: 'Seguranças e seguranços, vamos juntos para mais um belo dia protegendo o futuro, mantendo das informações seguras e sigilosas 🔐🦺'
   }
 ]
 

@@ -35,7 +35,11 @@ const themeFunny: FuncTheme = () => [
   },
   {
     id: 'funny_I',
-    text: 'ahoy! todos a bordo! Vamos juntos navegar pelo o mundo conhecer as maravilhas que ocultam somente para olhos despertos e explorar cada canto desta bela ⛵ 🌊 🚢'
+    text: 'ahoy! todos a bordo! Vamos juntos navegar pelo o mundo conhecer as maravilhas que ocultam somente para olhos despertos e explorar cada canto desta bela ⛵🌊🚢'
+  },
+  {
+    id: 'funny_J',
+    text: 'calorentas e calorentos, acordai e preparai-vos para um novo dia produtivo, alegre e quente. Se hidratem, busquem conforto térmico e vamos para cima ☀️🍨💧'
   }
 ]
 
