@@ -1,5 +1,5 @@
 import themeArt from './art'
-import getThemeDay from './day'
+import getThemeDay, { themeDay } from './day'
 import themeDream from './dream'
 import themeFriday from './friday'
 import { getRandom, getTheme } from './functions'
@@ -9,7 +9,7 @@ import themeHoly from './holy'
 import themeLabor from './labor'
 import themeMonday from './monday'
 import themeTokusatsu from './tokusatsu'
-import { DayTheme, FuncTheme } from './types'
+import { DayTheme, FuncTheme, MessageType } from './types'
 import themeWednesday from './wednesday'
 
 export const listThemeGenre = [
@@ -28,6 +28,21 @@ export const listAllTheme = [
   themeWednesday,
   themeFriday
 ]
+
+const libraries: Array<MessageType> = []
+libraries.push(...themeDay())
+libraries.push(...themeMonday())
+libraries.push(...themeWednesday())
+libraries.push(...themeFriday())
+libraries.push(...themeHappy())
+libraries.push(...themeHoly())
+libraries.push(...themeFunny())
+libraries.push(...themeTokusatsu())
+libraries.push(...themeArt())
+libraries.push(...themeLabor())
+libraries.push(...themeDream())
+
+export const completeLibraries = libraries
 
 const getMessage = () => {
   const today = new Date()
@@ -52,14 +67,14 @@ const getMessage = () => {
       theme = getTheme(listThemeGenre)
   }
 
-  let concatenated = theme()
-  concatenated = concatenated.concat(themeHappy())
-  concatenated = concatenated.concat(themeHoly())
-  concatenated = concatenated.concat(themeFunny())
-  concatenated = concatenated.concat(themeTokusatsu())
-  concatenated = concatenated.concat(themeArt())
-  concatenated = concatenated.concat(themeLabor())
-  concatenated = concatenated.concat(themeDream())
+  const concatenated = theme()
+  concatenated.push(...themeHappy())
+  concatenated.push(...themeHoly())
+  concatenated.push(...themeFunny())
+  concatenated.push(...themeTokusatsu())
+  concatenated.push(...themeArt())
+  concatenated.push(...themeLabor())
+  concatenated.push(...themeDream())
 
   const message = getRandom(concatenated)
   return message[0].toUpperCase() + message.slice(1)
