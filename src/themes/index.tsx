@@ -44,13 +44,13 @@ libraries.push(...themeDream())
 
 export const completeLibraries = libraries
 
-const getMessage = () => {
+const getMessage = (): MessageType => {
   const today = new Date()
   let theme: FuncTheme
 
   const dayTheme: DayTheme | undefined = getThemeDay(today)
   if (dayTheme && Math.trunc(Math.random() * 2) === 1) {
-    return dayTheme.text[0].toUpperCase() + dayTheme.text.slice(1)
+    return dayTheme
   }
 
   switch (today.getDay()) {
@@ -76,8 +76,7 @@ const getMessage = () => {
   concatenated.push(...themeLabor())
   concatenated.push(...themeDream())
 
-  const message = getRandom(concatenated)
-  return message[0].toUpperCase() + message.slice(1)
+  return getRandom(concatenated)
 }
 
 export default getMessage

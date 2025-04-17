@@ -32,6 +32,10 @@ const themeFriday: FuncTheme = () => [
   {
     id: 'friday-h',
     text: 'Investidores, construtores do novo mundo, vamos gerar das nossas ideias e concretizar um novo dia maravilhoso e nos preparar para um fim semana incrível ⭐ 💡 🏗️'
+  },
+  {
+    id: 'friday-i',
+    text: 'bom dia para mais uma bela sexta-feira, um dia maravilhoso de produtividade, compartilhamento e evolução, um beijo e um queijo para todos 😘 ☀️ 🧀'
   }
 ]
 

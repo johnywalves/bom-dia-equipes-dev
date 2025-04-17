@@ -4,7 +4,7 @@ import Main from '.'
 
 describe('<Main />', () => {
   it('should render the heading', () => {
-    const { container } = render(<Main message={'Testing message'} />)
+    const { container } = render(<Main id="test" text={'testing message'} />)
 
     expect(
       screen.getByRole('heading', { name: /testing message/i })
@@ -14,7 +14,7 @@ describe('<Main />', () => {
   })
 
   it('should render the colors correctly', () => {
-    const { container } = render(<Main message={'Testing message'} />)
+    const { container } = render(<Main id="test" text={'Testing message'} />)
 
     expect(container.firstChild).toHaveStyle({
       'background-color': 'var(--bg)'

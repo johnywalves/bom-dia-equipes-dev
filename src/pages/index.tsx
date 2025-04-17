@@ -5,5 +5,5 @@ import getMessage from 'themes'
 const Main = dynamic(() => import('components/Main'), { ssr: false })
 
 export default function Home() {
-  return <Main message={getMessage()} />
+  return <Main {...getMessage()} />
 }

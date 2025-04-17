@@ -113,7 +113,13 @@ const list: Array<DayTheme> = [
     id: 'day-0415-a',
     month: 4,
     day: 15,
-    text: 'desenhistas e desenhistos, preparem seus lápis, pinceis e seu software favorito para um dia expressando o conteúdo de nossas almas e mentes, projetando um novo amanhã com muitas formas e cores '
+    text: 'desenhistas e desenhistos, preparem seus lápis, pinceis e seu software favorito para um dia expressando o conteúdo de nossas almas e mentes, projetando um novo amanhã com muitas formas e cores'
+  },
+  {
+    id: 'day-0416-a',
+    month: 4,
+    day: 16,
+    text: 'Vocalistas e vocalistos, preparem suas vozes e guturais, vamos juntos para um dia cheio de cantorias e alegrias, vamos movimentar as pessoas direcionar e guiando 🗣️ 🎤 🎸'
   },
   {
     id: 'day-0419-a',

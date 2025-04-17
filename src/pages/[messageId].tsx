@@ -2,6 +2,7 @@ import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from 'next'
 import dynamic from 'next/dynamic'
 
 import { completeLibraries } from 'themes'
+import { MessageType } from 'themes/types'
 
 const Main = dynamic(() => import('components/Main'), { ssr: false })
 
@@ -21,22 +22,22 @@ export const getStaticPaths = (async () => {
 
 type ContextProps = { messageId: string }
 
-const emptyContext = {
-  messageId: ''
+const emptyContext: MessageType = {
+  id: '',
+  text: ''
 }
 
 export const getStaticProps = (async (context) => {
   const { messageId } = (context.params ?? emptyContext) as ContextProps
   const found = completeLibraries.find(({ id }) => id === messageId)
-  return { props: { message: found?.text ?? '' } }
-}) satisfies GetStaticProps<{
-  message: string
-}>
+  const text = found?.text ?? ''
+  const props = { id: messageId, text }
 
-function MessagePage({
-  message
-}: InferGetStaticPropsType<typeof getStaticProps>) {
-  return <Main message={message} />
+  return { props }
+}) satisfies GetStaticProps<MessageType>
+
+function MessagePage(props: InferGetStaticPropsType<typeof getStaticProps>) {
+  return <Main {...props} />
 }
 
 export default MessagePage

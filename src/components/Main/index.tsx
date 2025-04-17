@@ -1,8 +1,11 @@
 import { useCallback, useState, useEffect } from 'react'
 
+import Share from 'components/Share'
+import { MessageType } from 'themes/types'
+
 import { Wrapper, Copied, GoodMorning, Footer, Astro } from './styles'
 
-const Main = ({ message }: { message: string }) => {
+const Main = ({ id, text }: MessageType) => {
   const [styleGoodMorning, setStyleGoodMorning] = useState({})
   const [copied, setCopied] = useState(false)
   const [theme, setTheme] = useState('')
@@ -18,15 +21,11 @@ const Main = ({ message }: { message: string }) => {
     setStyleGoodMorning({ opacity: 1 })
   }, [])
 
-  useEffect(() => {
-    const timer = setTimeout(() => setCopied(false), 2000)
-    return () => clearTimeout(timer)
-  }, [copied])
-
   const copy = useCallback(async () => {
-    await navigator.clipboard.writeText(message)
+    await navigator.clipboard.writeText(text)
     setCopied(true)
-  }, [setCopied, message])
+    setTimeout(() => setCopied(false), 2000)
+  }, [setCopied, text])
 
   const backCopy = useCallback(() => {
     setCopied(false)
@@ -38,7 +37,7 @@ const Main = ({ message }: { message: string }) => {
         <Copied onClick={backCopy}>Copiado!</Copied>
       ) : (
         <GoodMorning style={styleGoodMorning} onClick={copy}>
-          {message}
+          {text[0].toUpperCase() + text.slice(1)}
         </GoodMorning>
       )}
       <Footer style={styleGoodMorning}>
@@ -58,6 +57,7 @@ const Main = ({ message }: { message: string }) => {
           window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
         }}
       />
+      <Share id={id} text={text} />
     </Wrapper>
   )
 }
