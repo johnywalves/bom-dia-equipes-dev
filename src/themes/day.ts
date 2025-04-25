@@ -134,6 +134,12 @@ const list: Array<DayTheme> = [
     text: 'danceiras e danceiros, vamos pegar os sapatos plataformas, armar nossos cabelos com muito hair spray, preparar a bola espelhada para dançarmos juntos e impressionar todos com nossa performance'
   },
   {
+    id: 'day-0423-a',
+    month: 4,
+    day: 23,
+    text: 'autoras e autores. vamos para um dia de histórias, invenção de novos mundos, expansão da imaginação e organizadores do conhecimento 📙 🧙 🚀'
+  },
+  {
     id: 'day-0426-a',
     month: 4,
     day: 26,

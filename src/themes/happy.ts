@@ -24,6 +24,14 @@ const themeHappy: FuncTheme = () => [
   {
     id: 'happy-f',
     text: 'vitoriosas e vitoriosos do meu coração, vamos juntos para compartilhar as graças e esperanças para todos ♥️ ⭐ 🍀'
+  },
+  {
+    id: 'happy-g',
+    text: 'bom dia, para um belo e iluminado dia que as oportunidades de desenvolvimento sejam muitas e sucessos muito mais, que seus dias sejam produtivos e inspiradores ☀️ 💛 🍀'
+  },
+  {
+    id: 'happy-h',
+    text: 'amigas e amigos, espero que estejam ansiosos e prontos para mais um belo dia, com muita força de vontade, disposição e alegria ☀️ 🚀 🔥'
   }
 ]
 
