@@ -1,4 +1,4 @@
-import { useCallback, useState, useEffect } from 'react'
+import { useCallback, useState, useEffect, useMemo } from 'react'
 
 import Share from 'components/Share'
 import { MessageType } from 'themes/types'
@@ -21,11 +21,13 @@ const Main = ({ id, text }: MessageType) => {
     setStyleGoodMorning({ opacity: 1 })
   }, [])
 
+  const message = useMemo(() => text[0].toUpperCase() + text.slice(1), [text])
+
   const copy = useCallback(async () => {
-    await navigator.clipboard.writeText(text)
+    await navigator.clipboard.writeText(message)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
-  }, [setCopied, text])
+  }, [setCopied, message])
 
   const backCopy = useCallback(() => {
     setCopied(false)
@@ -37,7 +39,7 @@ const Main = ({ id, text }: MessageType) => {
         <Copied onClick={backCopy}>Copiado!</Copied>
       ) : (
         <GoodMorning style={styleGoodMorning} onClick={copy}>
-          {text[0].toUpperCase() + text.slice(1)}
+          {message}
         </GoodMorning>
       )}
       <Footer style={styleGoodMorning}>
