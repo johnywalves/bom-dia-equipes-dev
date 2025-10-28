@@ -200,6 +200,18 @@ const list: Array<DayTheme> = [
     text: 'abelhas e abelhos, vamos tomar o solzinho da manhã para aquecer e preparar para esse dia frio, colher o pólen das flores e produzir um gostoso e nutritivo mel'
   },
   {
+    id: 'day-0522-a',
+    month: 5,
+    day: 22,
+    text: 'góticas e góticos, vamos para um maravilhoso dia de belas músicas, vestes pretas e arquiteturas extraordinárias ⛪ 🤘 🎸'
+  },
+  {
+    id: 'day-0520-a',
+    month: 5,
+    day: 22,
+    text: 'tartarugas e tartarugos, navegantes dos sete mares, exploradores do oceano, habitantes do mundo, vamos juntos aproveitar as correntes marítimas para ir longe e encontrar belas praias e maravilhosos horizontes 🐢 🌊 🗺️'
+  },
+  {
     id: 'day-0524-a',
     month: 5,
     day: 24,
@@ -212,16 +224,76 @@ const list: Array<DayTheme> = [
     text: 'mochileiras e mochileiros, preparem seus pertences e sua vontade de explorar o universo, vamos de carona em carona para onde nossos sonhos quiserem nos levar, andem sempre com atenção e não esqueçam suas toalhas'
   },
   {
+    id: 'day-0528-a',
+    month: 5,
+    day: 28,
+    text: 'Hamburgueiras e hamburgueiros, vamos para um delicioso dia de novos blends, aperfeiçoamento de nossas técnicas, para fazer uma refeição maravilhosa ornando sabor e textura para encantar a todos 🍔 🐮 👩‍🍳'
+  },
+  {
     id: 'day-0530-a',
     month: 5,
     day: 30,
     text: 'decoradoras e decoradores, peguem seus cortinas, vasinhos de planta, quadros e almofadas vamos deixar nesse ambiente lindo e agradável, para inspirar e transpirar calma e organização, trazer a beleza do mundo para nosso e outros lares'
   },
   {
+    id: 'day-0530-b',
+    month: 5,
+    day: 28,
+    text: 'Maquinistas e maquinisto, vamos levar esse novo dia para frente sempre com a carga cheia, guiar sonhos e pessoas para terras cada vez mais distantes, juntos carregar futuro e progresso 🚋 🚆 👩‍✈️ '
+  },
+  {
     id: 'day-0531-a',
     month: 5,
     day: 31,
     text: 'atenção senhoras e senhores passageiros, bem-vindos ao dia de hoje, para sua segurança estamos aqui para te auxiliar e desenvolver juntos, se precisar de alguma ajuda a um chat de distância pode encontrar um companheiro de trabalho, a previsão de chegada é de trabalho bem feito e sucesso para todos'
+  },
+  {
+    id: 'day-0603-a',
+    month: 6,
+    day: 3,
+    text: 'Bom dia, amigas e amigos nesse dia maravilhoso! Bom dia, amigas e amigos nesse dia maravilhoso! Ops... ei, vamos juntos um dia produtivo e divertido para repetir o que faz bem e praticar bons hábitos ➿ 🔁 🎢'
+  },
+  {
+    id: 'day-004-a',
+    month: 6,
+    day: 4,
+    text: 'Gatas e gatos do meu coração, vamos para um dia de tranquilidade e olho vivo para os arredores, sempre preparos para a caça e receber carinho de todos 😻 🐈‍⬛'
+  },
+  {
+    id: 'day-0605-a',
+    month: 6,
+    day: 5,
+    text: 'Mecânicas e mecânicos, articuladores do mundo vamos para um dia maravilhoso para movimentar a todos, manter a máquina funcionando com precisão e persistência 👩‍🔧 ⚙️ 🦾'
+  },
+  {
+    id: 'day-0606-a',
+    month: 6,
+    day: 6,
+    text: 'Cafeicultoras e cafeicultores, vamos arar a terra para nutrir o grão sagrado, vamos cultivar com amor e dedicação para gerar o liquido negro para alegrar nosso dia ☕ 🫘 💛'
+  },
+  {
+    id: 'day-0609-a',
+    month: 6,
+    day: 9,
+    text: 'Arquivistas e arquivistos, guardiões da história, lembradores dos fatos passados, organizadores do conhecimento, vamos para um pelo dia de encontrar e compartilhar a chave para soluções e ideia 🗃️ 👩‍💼 🗄️'
+  },
+  {
+    id: 'day-0610-a',
+    month: 6,
+    day: 10,
+    text: 'Lusas e lusos, navegantes dos mares, rompedores de tormentas e descobridores de novas rotas vamos juntos para esse belo oceano aberto encontrar riquezas em terras distantes 🚢 🌏 🗺️'
+  },
+  {
+    id: 'day-0611-a',
+    month: 6,
+    day: 11,
+    text: 'Marinheiras e marinheiros, vamos puxar a âncora e ichar velas! Vamos para um maravilhoso dia com muitas aventuras e desafios rumando nosso navio em rumo guiando sonhos e futuros 🚢 🌏 🗺️'
+  },
+  {
+    id: 'day-0611-a',
+    month: 6,
+    day: 12,
+    text: 'Namoradas, namorados, solteiras e solteiros, vamos todos juntos para compartilhar entre nós e todos o amor e compaixão, para mais um pelo dia e nova oportunidade de expressar aos que fazer nossos dias especiais 💛 ❤️‍🔥 💖'
   },
   {
     id: 'day-0721-a',
