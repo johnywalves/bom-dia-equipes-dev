@@ -17,7 +17,7 @@
     "test:ci": "jest --runInBand"
   },
   "dependencies": {
-    "next": "14.2.5",
+    "next": "16.1.6",
     "next-pwa": "5.6.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@storybook/addon-essentials": "8.2.8",
-    "@storybook/nextjs": "8.2.8",
+    "@storybook/nextjs": "8.6.15",
     "@storybook/react": "8.2.8",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.4.8",
