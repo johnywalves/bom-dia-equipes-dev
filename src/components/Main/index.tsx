@@ -1,23 +1,35 @@
-import { useCallback, useState, useEffect, useMemo } from 'react'
+import {
+  useCallback,
+  useState,
+  useEffect,
+  useMemo,
+  useSyncExternalStore
+} from 'react'
 
 import Share from 'components/Share'
 import { MessageType } from 'themes/types'
 
 import { Wrapper, Copied, GoodMorning, Footer, Astro } from './styles'
 
+const subscribeTheme = (onChange: () => void) => {
+  window.__onThemeChange = onChange
+  return () => {
+    window.__onThemeChange = () => undefined
+  }
+}
+const getTheme = () => window.__theme
+const getServerTheme = () => ''
+
 const Main = ({ id, text }: MessageType) => {
   const [styleGoodMorning, setStyleGoodMorning] = useState({})
   const [copied, setCopied] = useState(false)
-  const [theme, setTheme] = useState('')
+  const theme = useSyncExternalStore(subscribeTheme, getTheme, getServerTheme)
 
   const isDarkMode = theme === 'dark'
 
   useEffect(() => {
-    setTheme(window.__theme)
-    window.__onThemeChange = () => setTheme(window.__theme)
-  }, [])
-
-  useEffect(() => {
+    // Trigger CSS fade-in transition after first paint
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setStyleGoodMorning({ opacity: 1 })
   }, [])
 

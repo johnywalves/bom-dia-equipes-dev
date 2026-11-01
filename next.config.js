@@ -9,7 +9,6 @@ const withPWA = require('next-pwa')({
 
 const config = {
   output: 'export',
-  experimental: { forceSwcTransforms: true },
   compiler: {
     styledComponents: {
       displayName: process.env.NODE_ENV === 'development',
