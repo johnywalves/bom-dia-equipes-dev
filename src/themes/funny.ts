@@ -40,6 +40,26 @@ const themeFunny: FuncTheme = () => [
   {
     id: 'funny-j',
     text: 'Calorentas e calorentos, acordai e preparai-vos para um novo dia produtivo, alegre e quente. Se hidratem, busquem conforto térmico e vamos para cima. 🥵 🌞 💧'
+  },
+  {
+    id: 'funny-k',
+    text: 'Gatos e gatas de plantão, espreguicem-se bem devagar, ronronem para o dia e partam para a caça de mais uma produtiva jornada. 🐱 😸 🐾'
+  },
+  {
+    id: 'funny-l',
+    text: 'Bom dia, exploradores do espaço sideral, preparem os foguetes, a contagem regressiva começou e hoje vamos aterrissar em grandes resultados. 🚀 👨‍🚀 🌕'
+  },
+  {
+    id: 'funny-m',
+    text: 'Bom dia, cachorros e cachorras do escritório, balancem o rabinho, busquem a bolinha da produtividade e façam festa para cada nova tarefa. 🐶 🎾 🦴'
+  },
+  {
+    id: 'funny-n',
+    text: 'Dinossauros e dinossauras da tecnologia, saiam das cavernas, sacudam a poeira e provem que a experiência também sabe inovar. 🦖 🦕 💻'
+  },
+  {
+    id: 'funny-o',
+    text: 'Pizzaiolos e pizzaiolas do código, que hoje o dia tenha massa fina, queijo derretido e nenhum bug para estragar o sabor. 🍕 🧀 🐛'
   }
 ]
 

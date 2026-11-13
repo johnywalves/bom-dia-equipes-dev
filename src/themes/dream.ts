@@ -28,6 +28,26 @@ const themeDream: FuncTheme = () => [
   {
     id: 'dream-g',
     text: 'Que o sol brilhe para ti, iluminando seu caminho!  Que o horizonte seja somente uma referência, não um limite! ☀️ 🌄 🧭'
+  },
+  {
+    id: 'dream-h',
+    text: 'Navegantes de novos mundos, icem as velas e sigam o vento da esperança, pois todo grande sonho começa com um primeiro passo corajoso. ⛵ 🌬️ ⭐'
+  },
+  {
+    id: 'dream-i',
+    text: 'Bom dia, construtores de futuro, que cada pequena ação de hoje seja um tijolo firme na construção dos sonhos que queremos tornar realidade. 🧱 🏡 🌠'
+  },
+  {
+    id: 'dream-j',
+    text: 'Bom dia, astronautas de sonhos, apertem os cintos, a nave da imaginação está pronta para decolar e explorar novas galáxias de possibilidades. 🚀 🌌 👨‍🚀'
+  },
+  {
+    id: 'dream-k',
+    text: 'Plantadoras e plantadores de esperança, que a semente lançada hoje se torne a árvore que dará sombra e frutos para as próximas gerações. 🌳 🌱 🍎'
+  },
+  {
+    id: 'dream-l',
+    text: 'Bom dia, alquimistas do possível, vamos transformar ideias em ouro e sonhos em realidade com muito trabalho e uma pitada de magia. ⚗️ 🪄 🏆'
   }
 ]
 

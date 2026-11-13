@@ -32,6 +32,26 @@ const themeHoly: FuncTheme = () => [
   {
     id: 'holy-h',
     text: 'Bom dia, abençoadas e abençoados, que o Universo conspire a favor e que cada passo de hoje seja guiado por fé, amor e luz. ⛪ 🌟 🙌'
+  },
+  {
+    id: 'holy-i',
+    text: 'Bom dia, filhas e filhos da luz, que a gratidão seja a primeira oração da manhã e a serenidade nos acompanhe em cada passo deste dia. 🕊️ 🙏 🌤️'
+  },
+  {
+    id: 'holy-j',
+    text: 'Queridas e queridos, que a fé renove as forças, a esperança aqueça os corações e o amor guie todas as nossas ações neste novo amanhecer. ✝️ 🌅 ❤️'
+  },
+  {
+    id: 'holy-k',
+    text: 'Bom dia, corações generosos, que a compaixão guie nossas palavras, a humildade guie nossos gestos e a paz guie nosso dia. 💖 🤲 🕊️'
+  },
+  {
+    id: 'holy-l',
+    text: 'Irmãs e irmãos de caminhada, que o Criador abençoe o nosso trabalho, proteja nossas famílias e ilumine nossas decisões de hoje. 🙏 👨‍👩‍👧‍👦 💫'
+  },
+  {
+    id: 'holy-m',
+    text: 'Bom dia, almas em busca de paz, respirem fundo, agradeçam pelo agora e deixem a calma conduzir cada passo desta manhã. 🧘 🌿 ☮️'
   }
 ]
 

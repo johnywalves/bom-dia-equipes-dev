@@ -40,6 +40,26 @@ const themeHappy: FuncTheme = () => [
   {
     id: 'happy-j',
     text: 'Boooooom dia, pessoal lindo! Para mais um belo dia de oportunidades e realização, um dia para realizar e chegar mais perto de alcançar!!! Vamos que vamos! 🥳 🙌 🚀'
+  },
+  {
+    id: 'happy-k',
+    text: 'Bom dia, gente de coração bom, que o sorriso de hoje contagie quem estiver por perto e faça deste dia um dia leve e cheio de boas energias. 😊 💛 🌻'
+  },
+  {
+    id: 'happy-l',
+    text: 'Pessoas incríveis, que a alegria seja o combustível e a gentileza o caminho para um dia produtivo, divertido e cheio de boas histórias. 🌞 🤗 🎈'
+  },
+  {
+    id: 'happy-m',
+    text: 'Bom dia, pessoas maravilhosas, que a manhã chegue com cheirinho de café, sol brilhando e muitas razões para sorrir e agradecer. ☕ 🌞 😁'
+  },
+  {
+    id: 'happy-n',
+    text: 'Gente querida, hoje é dia de espalhar abraços, elogios e boas notícias, porque a alegria compartilhada sempre multiplica. 🫂 💬 🌈'
+  },
+  {
+    id: 'happy-o',
+    text: 'Bom dia, campeãs e campeões, que a disposição seja grande, as ideias sejam brilhantes e o resultado do dia deixe todo mundo feliz. 🏅 💡 🥰'
   }
 ]
 

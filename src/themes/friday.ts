@@ -36,6 +36,26 @@ const themeFriday: FuncTheme = () => [
   {
     id: 'friday-i',
     text: 'Bom dia para mais uma bela sexta-feira, um dia maravilhoso de produtividade, compartilhamento e evolução, um beijo e um queijo para todos. 😘 🧀 🎉'
+  },
+  {
+    id: 'friday-j',
+    text: 'Bom dia, sextou! Vamos fechar as entregas, organizar as pendências e deixar tudo em ordem para curtir o fim de semana com a consciência leve. ✅ 🗂️ 😎'
+  },
+  {
+    id: 'friday-k',
+    text: 'Sexteiras e sexteiros, falta pouco para o descanso merecido, vamos dar o último gás com alegria e brindar o que foi conquistado nesta semana. 🥂 💪 🎶'
+  },
+  {
+    id: 'friday-l',
+    text: 'Bom dia, sextou com S de sucesso! Vamos terminar a semana com tudo entregue, a equipe sorrindo e o fim de semana batendo na porta. 🚪 😄 🎊'
+  },
+  {
+    id: 'friday-m',
+    text: 'Sexteiras e sexteiros, o churrasco já está no horizonte, a playlist está pronta e só falta cumprir o último dia de trabalho com alegria. 🍖 🎵 🔥'
+  },
+  {
+    id: 'friday-n',
+    text: 'Boa sexta-feira, pessoal! Que o dia passe leve, o café esteja quentinho e a vontade de descansar seja merecida por tudo que construímos. ☕ 🛋️ 🌴'
   }
 ]
 

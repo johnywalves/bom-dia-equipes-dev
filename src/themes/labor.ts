@@ -156,6 +156,34 @@ const themeLabor: FuncTheme = () => [
   {
     id: 'labor-a4',
     text: 'Arquitetas e arquitetos, lhe desejo boas vindas para um pelo dia e novos oportunidade de planejar e implementar novos projetos, garantir a praticidade e conforto para o usuário, melhorando a vida de todos. 📐 🏠 🏗️'
+  },
+  {
+    id: 'labor-a5',
+    text: 'Professoras e professores, bom dia para semear conhecimento, despertar curiosidades e inspirar mentes que transformarão o mundo, que a aula de hoje seja memorável. 🍎 📚 🧑‍🏫'
+  },
+  {
+    id: 'labor-a6',
+    text: 'Médicas e médicos, enfermeiras e enfermeiros, que o dia seja de cuidado, empatia e muita saúde para quem precisa, vocês são a esperança de muitas vidas. 🩺 💉 🏥'
+  },
+  {
+    id: 'labor-a7',
+    text: 'Jardineiras e jardineiros, vamos regar, podar e cuidar com carinho do que plantamos, pois bons resultados florescem com dedicação e paciência. 🌻 🪴 🚿'
+  },
+  {
+    id: 'labor-a8',
+    text: 'Padeiras e padeiros, bom dia, que a massa cresça, o aroma se espalhe e cada entrega do dia saia quentinha e deliciosa para encantar a todos. 🥖 🍞 🥐'
+  },
+  {
+    id: 'labor-a9',
+    text: 'Engenheiras e engenheiros de dados, vamos organizar as informações, limpar as bases e transformar números em decisões brilhantes para hoje. 📊 🗄️ 🧠'
+  },
+  {
+    id: 'labor-b1',
+    text: 'Músicos e músicas de estúdio, afinem os ouvidos, ajustem os microfones e gravem hoje uma faixa de bom dia que embale toda a equipe. 🎙️ 🎚️ 🎸'
+  },
+  {
+    id: 'labor-b2',
+    text: 'Bombeiras e bombeiros, heróis e heroínas do cotidiano, obrigado por protegerem vidas com coragem, que o dia de hoje seja seguro e tranquilo. 🚒 🧑‍🚒 ❤️'
   }
 ]
 

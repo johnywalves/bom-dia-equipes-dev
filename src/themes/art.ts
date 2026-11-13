@@ -28,6 +28,26 @@ const themeArt: FuncTheme = () => [
   {
     id: 'art-g',
     text: 'Cantoras e cantores, aqueçam as cordas vocais e soltem a voz, que a melodia de hoje leve alegria e emoção para quem escutar. 🎤 🎶 🎧'
+  },
+  {
+    id: 'art-h',
+    text: 'Escritoras e escritores, abram o caderno, deixem as palavras fluírem e vamos escrever juntos um capítulo inspirador para este dia. 📖 ✒️ 💭'
+  },
+  {
+    id: 'art-i',
+    text: 'Designers e ilustradores, vamos desenhar o dia com criatividade, equilibrar formas e cores e entregar belas soluções que encantem os olhos e o coração. ✏️ 🖼️ 💡'
+  },
+  {
+    id: 'art-j',
+    text: 'Escultoras e escultores de histórias, vamos moldar o barro das ideias e dar forma a projetos que emocionem e inspirem quem os vir. 🏺 🗿 🌟'
+  },
+  {
+    id: 'art-k',
+    text: 'Bailarinas e bailarinos, alonguem o corpo e a imaginação, pois hoje cada passo é uma poesia e cada giro é uma celebração da vida. 🩰 🌀 💫'
+  },
+  {
+    id: 'art-l',
+    text: 'Cineastas e roteiristas, luz, câmera e ação! Que o dia de hoje seja um grande filme com final feliz e cenas inesquecíveis. 🎥 🍿 🎞️'
   }
 ]
 
